@@ -1,0 +1,48 @@
+//###########################################################################
+// Project Name	:	Irigation System
+// Req Type		:	System Requirement Specification (SyRS)
+// Author Name	:	Amit Dhanawade
+// Date			: 	18 October 2023
+// Version		: 	V1.0.1
+// Abbrivations : 1. Functional Description (FunDes)
+//				  2. Req Type	: Functional / Non-Functional
+//				  3. Software Requirements Specification (SRS)	
+//				  4. Hardware Requirements Specification (HRS)	
+//###########################################################################
+
+
+//***************************************************************************
+Req ID		: SyRS_01
+
+HRS/SRS ID	: [SRS_01] (Where is this implemented)
+
+Req Type	: Functional
+
+FunDes	: Check Temperature and display for user on LCD
+		  
+Req Goal: Sensor visibility for user
+//***************************************************************************
+
+//***************************************************************************
+Req ID		: SyRS_02
+
+HRS/SRS ID	: [HRS_01] (Where is this implemented)
+
+Req Type	: Non-Functional
+
+FunDes	: Temperature Sensor shall not be direct accessable to user
+		  
+Req Goal: User handling might damage sensor
+//***************************************************************************
+
+//***************************************************************************
+Req ID		: SyRS_03
+
+HRS/SRS ID	: [    ] (Where is this implemented)
+
+Req Type	: Non-Functional
+
+FunDes	: Temperature Sensor shall not be direct accessable to user
+		  
+Req Goal: User handling might damage sensor
+//***************************************************************************
