@@ -1,0 +1,23 @@
+//###########################################################################
+// Project Name	:	Irigation System
+// Req Type		:	Hardware Requirements Specification (HRS)
+// Author Name	:	Amit Dhanawade
+// Date			: 	18 October 2023
+// Version		: 	V1.0.1
+// Abbrivations : 1. Functional Description (FunDes)
+//				  2. Software Requirements Specification (SRS)	
+//				  3. System Requirement Specification (SyRS)	
+//###########################################################################
+
+
+//***************************************************************************
+Req ID		: HRS_01
+
+HRS/SRS ID	: [SyRS_01] Temperature Sensor shall not be direct accessable 
+						to user
+
+FunDes	: Place Temperature Sensor at the right hand top cornor on PCB while 
+		  routing PCB
+		  
+Req Goal: On Top side of enclosure for good ambient temperature exposure
+//***************************************************************************
