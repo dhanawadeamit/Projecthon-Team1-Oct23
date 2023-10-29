@@ -59,10 +59,10 @@ void lcd_write(unsigned char c)
 }
 
 /* write one chars to the LCD */
-void lcd_putch(char dis_char)
+void lcd_putch(char lcd_dis_char)
 {
 	LCD_RS = 1;	// write characters
-	lcd_write( dis_char );
+	lcd_write( lcd_dis_char );
 }
 
 /**
