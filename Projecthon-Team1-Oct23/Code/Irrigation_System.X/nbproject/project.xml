@@ -7,6 +7,10 @@
             <creation-uuid>3746220f-5900-4323-ba42-7d8322304027</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>PICsim_Manual_Add_Files/LCD</sourceRootElem>

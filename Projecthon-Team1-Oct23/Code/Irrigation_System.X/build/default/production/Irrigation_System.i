@@ -4,48 +4,50 @@
 # 288 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\language_support.h" 1 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "Irrigation_System.c" 2
 # 44 "Irrigation_System.c"
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 1 3
-# 18 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 1 3
+# 18 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
 
 extern double __fpnormalize(double);
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\xc8debug.h" 1 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\xc8debug.h" 1 3
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdlib.h" 1 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 1 3
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\musl_xc8.h" 1 3
-# 5 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdlib.h" 2 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\musl_xc8.h" 1 3
+# 4 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 2 3
 
 
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\features.h" 1 3
-# 11 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdlib.h" 2 3
-# 21 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdlib.h" 3
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 1 3
-# 18 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\features.h" 1 3
+# 10 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 2 3
+# 21 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 1 3
+# 18 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef long int wchar_t;
-# 122 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 122 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef unsigned size_t;
-# 168 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 168 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef __int24 int24_t;
-# 204 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 204 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef __uint24 uint24_t;
-# 22 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdlib.h" 2 3
+# 21 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 2 3
+
 
 int atoi (const char *);
 long atol (const char *);
@@ -66,23 +68,12 @@ unsigned long long strtoull (const char *restrict, char **restrict, int);
 int rand (void);
 void srand (unsigned);
 
-void *malloc (size_t);
-void *calloc (size_t, size_t);
-void *realloc (void *, size_t);
-void free (void *);
-
           void abort (void);
 int atexit (void (*) (void));
           void exit (int);
           void _Exit (int);
 
 void *bsearch (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
-
-
-
-
-
-
 
 __attribute__((nonreentrant)) void qsort (void *, size_t, size_t, int (*)(const void *, const void *));
 
@@ -102,7 +93,14 @@ typedef struct { unsigned int quot, rem; } udiv_t;
 typedef struct { unsigned long quot, rem; } uldiv_t;
 udiv_t udiv (unsigned int, unsigned int);
 uldiv_t uldiv (unsigned long, unsigned long);
-# 5 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\xc8debug.h" 2 3
+
+
+
+
+
+size_t __ctype_get_mb_cur_max(void);
+# 4 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\xc8debug.h" 2 3
+
 
 
 
@@ -112,27 +110,27 @@ uldiv_t uldiv (unsigned long, unsigned long);
 
 #pragma intrinsic(__builtin_software_breakpoint)
 extern void __builtin_software_breakpoint(void);
-# 23 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 2 3
+# 23 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 2 3
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\builtins.h" 1 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\builtins.h" 1 3
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdint.h" 1 3
-# 22 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdint.h" 3
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 1 3
-# 127 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 1 3
+# 22 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 1 3
+# 127 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef unsigned long uintptr_t;
-# 142 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 142 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef long intptr_t;
-# 158 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 158 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef signed char int8_t;
 
 
 
 
 typedef short int16_t;
-# 173 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 173 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef long int32_t;
 
 
@@ -140,7 +138,7 @@ typedef long int32_t;
 
 
 typedef long long int64_t;
-# 188 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 188 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef long long intmax_t;
 
 
@@ -153,7 +151,7 @@ typedef unsigned char uint8_t;
 
 
 typedef unsigned short uint16_t;
-# 209 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 209 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef unsigned long uint32_t;
 
 
@@ -161,9 +159,10 @@ typedef unsigned long uint32_t;
 
 
 typedef unsigned long long uint64_t;
-# 229 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
+# 229 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 3
 typedef unsigned long long uintmax_t;
-# 23 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdint.h" 2 3
+# 22 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 2 3
+
 
 typedef int8_t int_fast8_t;
 
@@ -195,14 +194,14 @@ typedef uint24_t uint_fast24_t;
 typedef uint32_t uint_least32_t;
 
 typedef uint64_t uint_least64_t;
-# 144 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdint.h" 3
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/stdint.h" 1 3
+# 144 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/stdint.h" 1 3
 typedef int16_t int_fast16_t;
 typedef int32_t int_fast32_t;
 typedef uint16_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
-# 145 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdint.h" 2 3
-# 4 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\builtins.h" 2 3
+# 144 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 2 3
+# 4 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\builtins.h" 2 3
 
 
 
@@ -217,28 +216,30 @@ extern __attribute__((nonreentrant)) void _delaywdt(uint32_t);
 
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(uint8_t);
-# 24 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 2 3
-# 33 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 3
-# 1 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 1 3
+# 24 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 2 3
+# 33 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 1 3
 
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\htc.h" 1 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\htc.h" 1 3
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 1 3
-# 4 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\htc.h" 2 3
-# 6 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 2 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 1 3
+# 4 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\htc.h" 2 3
+# 5 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 2 3
 
 
-# 1 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18_chip_select.h" 1 3
-# 249 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18_chip_select.h" 3
-# 1 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 1 3
-# 44 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\__at.h" 1 3
-# 45 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 2 3
+
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18_chip_select.h" 1 3
+# 905 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18_chip_select.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 1 3
+# 45 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\__at.h" 1 3
+# 45 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 2 3
+
 
 
 
@@ -261,7 +262,7 @@ typedef union {
     };
 } RX2PPSbits_t;
 extern volatile RX2PPSbits_t RX2PPSbits __attribute__((address(0xE8D)));
-# 86 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 87 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CK2PPS __attribute__((address(0xE8E)));
 
 __asm("CK2PPS equ 0E8Eh");
@@ -282,7 +283,7 @@ typedef union {
     };
 } CK2PPSbits_t;
 extern volatile CK2PPSbits_t CK2PPSbits __attribute__((address(0xE8E)));
-# 123 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 124 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -293,7 +294,7 @@ typedef union {
     };
 } TX2PPSbits_t;
 extern volatile TX2PPSbits_t TX2PPSbits __attribute__((address(0xE8E)));
-# 152 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 153 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2CLKPPS __attribute__((address(0xE8F)));
 
 __asm("SSP2CLKPPS equ 0E8Fh");
@@ -309,7 +310,7 @@ typedef union {
     };
 } SSP2CLKPPSbits_t;
 extern volatile SSP2CLKPPSbits_t SSP2CLKPPSbits __attribute__((address(0xE8F)));
-# 186 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 187 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2DATPPS __attribute__((address(0xE90)));
 
 __asm("SSP2DATPPS equ 0E90h");
@@ -325,7 +326,7 @@ typedef union {
     };
 } SSP2DATPPSbits_t;
 extern volatile SSP2DATPPSbits_t SSP2DATPPSbits __attribute__((address(0xE90)));
-# 220 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 221 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2SSPPS __attribute__((address(0xE91)));
 
 __asm("SSP2SSPPS equ 0E91h");
@@ -341,7 +342,7 @@ typedef union {
     };
 } SSP2SSPPSbits_t;
 extern volatile SSP2SSPPSbits_t SSP2SSPPSbits __attribute__((address(0xE91)));
-# 254 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 255 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2BUF __attribute__((address(0xE92)));
 
 __asm("SSP2BUF equ 0E92h");
@@ -353,7 +354,7 @@ typedef union {
     };
 } SSP2BUFbits_t;
 extern volatile SSP2BUFbits_t SSP2BUFbits __attribute__((address(0xE92)));
-# 274 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 275 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2ADD __attribute__((address(0xE93)));
 
 __asm("SSP2ADD equ 0E93h");
@@ -385,7 +386,7 @@ typedef union {
     };
 } SSP2ADDbits_t;
 extern volatile SSP2ADDbits_t SSP2ADDbits __attribute__((address(0xE93)));
-# 394 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 395 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2MSK __attribute__((address(0xE94)));
 
 __asm("SSP2MSK equ 0E94h");
@@ -407,7 +408,7 @@ typedef union {
     };
 } SSP2MSKbits_t;
 extern volatile SSP2MSKbits_t SSP2MSKbits __attribute__((address(0xE94)));
-# 464 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 465 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2STAT __attribute__((address(0xE95)));
 
 __asm("SSP2STAT equ 0E95h");
@@ -558,7 +559,7 @@ typedef union {
     };
 } SSP2STATbits_t;
 extern volatile SSP2STATbits_t SSP2STATbits __attribute__((address(0xE95)));
-# 918 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 919 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2CON1 __attribute__((address(0xE96)));
 
 __asm("SSP2CON1 equ 0E96h");
@@ -590,7 +591,7 @@ typedef union {
     };
 } SSP2CON1bits_t;
 extern volatile SSP2CON1bits_t SSP2CON1bits __attribute__((address(0xE96)));
-# 1038 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1039 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2CON2 __attribute__((address(0xE97)));
 
 __asm("SSP2CON2 equ 0E97h");
@@ -639,7 +640,7 @@ typedef union {
     };
 } SSP2CON2bits_t;
 extern volatile SSP2CON2bits_t SSP2CON2bits __attribute__((address(0xE97)));
-# 1225 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1226 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP2CON3 __attribute__((address(0xE98)));
 
 __asm("SSP2CON3 equ 0E98h");
@@ -658,7 +659,7 @@ typedef union {
     };
 } SSP2CON3bits_t;
 extern volatile SSP2CON3bits_t SSP2CON3bits __attribute__((address(0xE98)));
-# 1287 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1288 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC2REG __attribute__((address(0xE99)));
 
 __asm("RC2REG equ 0E99h");
@@ -688,7 +689,7 @@ typedef union {
     };
 } RCREG2bits_t;
 extern volatile RCREG2bits_t RCREG2bits __attribute__((address(0xE99)));
-# 1325 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1326 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TX2REG __attribute__((address(0xE9A)));
 
 __asm("TX2REG equ 0E9Ah");
@@ -718,7 +719,7 @@ typedef union {
     };
 } TXREG2bits_t;
 extern volatile TXREG2bits_t TXREG2bits __attribute__((address(0xE9A)));
-# 1363 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1364 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short SP2BRG __attribute__((address(0xE9B)));
 
 __asm("SP2BRG equ 0E9Bh");
@@ -755,7 +756,7 @@ typedef union {
     };
 } SPBRG2bits_t;
 extern volatile SPBRG2bits_t SPBRG2bits __attribute__((address(0xE9B)));
-# 1408 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1409 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SP2BRGH __attribute__((address(0xE9C)));
 
 __asm("SP2BRGH equ 0E9Ch");
@@ -785,7 +786,7 @@ typedef union {
     };
 } SPBRGH2bits_t;
 extern volatile SPBRGH2bits_t SPBRGH2bits __attribute__((address(0xE9C)));
-# 1446 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1447 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC2STA __attribute__((address(0xE9D)));
 
 __asm("RC2STA equ 0E9Dh");
@@ -820,7 +821,7 @@ typedef union {
     };
 } RC2STAbits_t;
 extern volatile RC2STAbits_t RC2STAbits __attribute__((address(0xE9D)));
-# 1537 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1538 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned RX9D :1;
@@ -845,7 +846,7 @@ typedef union {
     };
 } RCSTA2bits_t;
 extern volatile RCSTA2bits_t RCSTA2bits __attribute__((address(0xE9D)));
-# 1620 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1621 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TX2STA __attribute__((address(0xE9E)));
 
 __asm("TX2STA equ 0E9Eh");
@@ -876,7 +877,7 @@ typedef union {
     };
 } TX2STAbits_t;
 extern volatile TX2STAbits_t TX2STAbits __attribute__((address(0xE9E)));
-# 1702 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1703 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TX9D :1;
@@ -897,7 +898,7 @@ typedef union {
     };
 } TXSTA2bits_t;
 extern volatile TXSTA2bits_t TXSTA2bits __attribute__((address(0xE9E)));
-# 1776 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1777 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char BAUD2CON __attribute__((address(0xE9F)));
 
 __asm("BAUD2CON equ 0E9Fh");
@@ -956,7 +957,7 @@ typedef union {
     };
 } BAUD2CONbits_t;
 extern volatile BAUD2CONbits_t BAUD2CONbits __attribute__((address(0xE9F)));
-# 1906 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 1907 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -1001,7 +1002,7 @@ typedef union {
     };
 } BAUDCON2bits_t;
 extern volatile BAUDCON2bits_t BAUDCON2bits __attribute__((address(0xE9F)));
-# 2021 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2022 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -1046,7 +1047,7 @@ typedef union {
     };
 } BAUDCTL2bits_t;
 extern volatile BAUDCTL2bits_t BAUDCTL2bits __attribute__((address(0xE9F)));
-# 2139 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2140 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PPSLOCK __attribute__((address(0xEA0)));
 
 __asm("PPSLOCK equ 0EA0h");
@@ -1058,7 +1059,7 @@ typedef union {
     };
 } PPSLOCKbits_t;
 extern volatile PPSLOCKbits_t PPSLOCKbits __attribute__((address(0xEA0)));
-# 2159 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2160 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INT0PPS __attribute__((address(0xEA1)));
 
 __asm("INT0PPS equ 0EA1h");
@@ -1080,7 +1081,7 @@ typedef union {
     };
 } INT0PPSbits_t;
 extern volatile INT0PPSbits_t INT0PPSbits __attribute__((address(0xEA1)));
-# 2219 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2220 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INT1PPS __attribute__((address(0xEA2)));
 
 __asm("INT1PPS equ 0EA2h");
@@ -1102,7 +1103,7 @@ typedef union {
     };
 } INT1PPSbits_t;
 extern volatile INT1PPSbits_t INT1PPSbits __attribute__((address(0xEA2)));
-# 2279 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2280 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INT2PPS __attribute__((address(0xEA3)));
 
 __asm("INT2PPS equ 0EA3h");
@@ -1124,7 +1125,7 @@ typedef union {
     };
 } INT2PPSbits_t;
 extern volatile INT2PPSbits_t INT2PPSbits __attribute__((address(0xEA3)));
-# 2339 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2340 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T0CKIPPS __attribute__((address(0xEA4)));
 
 __asm("T0CKIPPS equ 0EA4h");
@@ -1146,7 +1147,7 @@ typedef union {
     };
 } T0CKIPPSbits_t;
 extern volatile T0CKIPPSbits_t T0CKIPPSbits __attribute__((address(0xEA4)));
-# 2399 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2400 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T1CKIPPS __attribute__((address(0xEA5)));
 
 __asm("T1CKIPPS equ 0EA5h");
@@ -1169,7 +1170,7 @@ typedef union {
     };
 } T1CKIPPSbits_t;
 extern volatile T1CKIPPSbits_t T1CKIPPSbits __attribute__((address(0xEA5)));
-# 2465 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2466 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T1GPPS __attribute__((address(0xEA6)));
 
 __asm("T1GPPS equ 0EA6h");
@@ -1192,7 +1193,7 @@ typedef union {
     };
 } T1GPPSbits_t;
 extern volatile T1GPPSbits_t T1GPPSbits __attribute__((address(0xEA6)));
-# 2531 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2532 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T3CKIPPS __attribute__((address(0xEA7)));
 
 __asm("T3CKIPPS equ 0EA7h");
@@ -1215,7 +1216,7 @@ typedef union {
     };
 } T3CKIPPSbits_t;
 extern volatile T3CKIPPSbits_t T3CKIPPSbits __attribute__((address(0xEA7)));
-# 2597 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2598 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T3GPPS __attribute__((address(0xEA8)));
 
 __asm("T3GPPS equ 0EA8h");
@@ -1238,7 +1239,7 @@ typedef union {
     };
 } T3GPPSbits_t;
 extern volatile T3GPPSbits_t T3GPPSbits __attribute__((address(0xEA8)));
-# 2663 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2664 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T5CKIPPS __attribute__((address(0xEA9)));
 
 __asm("T5CKIPPS equ 0EA9h");
@@ -1261,7 +1262,7 @@ typedef union {
     };
 } T5CKIPPSbits_t;
 extern volatile T5CKIPPSbits_t T5CKIPPSbits __attribute__((address(0xEA9)));
-# 2729 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2730 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T5GPPS __attribute__((address(0xEAA)));
 
 __asm("T5GPPS equ 0EAAh");
@@ -1284,7 +1285,7 @@ typedef union {
     };
 } T5GPPSbits_t;
 extern volatile T5GPPSbits_t T5GPPSbits __attribute__((address(0xEAA)));
-# 2795 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2796 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2INPPS __attribute__((address(0xEAB)));
 
 __asm("T2INPPS equ 0EABh");
@@ -1307,7 +1308,7 @@ typedef union {
     };
 } T2INPPSbits_t;
 extern volatile T2INPPSbits_t T2INPPSbits __attribute__((address(0xEAB)));
-# 2861 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2862 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4INPPS __attribute__((address(0xEAC)));
 
 __asm("T4INPPS equ 0EACh");
@@ -1330,7 +1331,7 @@ typedef union {
     };
 } T4INPPSbits_t;
 extern volatile T4INPPSbits_t T4INPPSbits __attribute__((address(0xEAC)));
-# 2927 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2928 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6INPPS __attribute__((address(0xEAD)));
 
 __asm("T6INPPS equ 0EADh");
@@ -1353,7 +1354,7 @@ typedef union {
     };
 } T6INPPSbits_t;
 extern volatile T6INPPSbits_t T6INPPSbits __attribute__((address(0xEAD)));
-# 2993 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 2994 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADACTPPS __attribute__((address(0xEAE)));
 
 __asm("ADACTPPS equ 0EAEh");
@@ -1376,7 +1377,7 @@ typedef union {
     };
 } ADACTPPSbits_t;
 extern volatile ADACTPPSbits_t ADACTPPSbits __attribute__((address(0xEAE)));
-# 3059 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3060 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCP1PPS __attribute__((address(0xEAF)));
 
 __asm("CCP1PPS equ 0EAFh");
@@ -1399,7 +1400,7 @@ typedef union {
     };
 } CCP1PPSbits_t;
 extern volatile CCP1PPSbits_t CCP1PPSbits __attribute__((address(0xEAF)));
-# 3125 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3126 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCP2PPS __attribute__((address(0xEB0)));
 
 __asm("CCP2PPS equ 0EB0h");
@@ -1422,7 +1423,7 @@ typedef union {
     };
 } CCP2PPSbits_t;
 extern volatile CCP2PPSbits_t CCP2PPSbits __attribute__((address(0xEB0)));
-# 3191 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3192 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1PPS __attribute__((address(0xEB1)));
 
 __asm("CWG1PPS equ 0EB1h");
@@ -1460,7 +1461,7 @@ typedef union {
     };
 } CWG1PPSbits_t;
 extern volatile CWG1PPSbits_t CWG1PPSbits __attribute__((address(0xEB1)));
-# 3300 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3301 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1488,7 +1489,7 @@ typedef union {
     };
 } CWGINPPSbits_t;
 extern volatile CWGINPPSbits_t CWGINPPSbits __attribute__((address(0xEB1)));
-# 3401 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3402 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDCARLPPS __attribute__((address(0xEB2)));
 
 __asm("MDCARLPPS equ 0EB2h");
@@ -1511,7 +1512,7 @@ typedef union {
     };
 } MDCARLPPSbits_t;
 extern volatile MDCARLPPSbits_t MDCARLPPSbits __attribute__((address(0xEB2)));
-# 3467 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3468 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDCARHPPS __attribute__((address(0xEB3)));
 
 __asm("MDCARHPPS equ 0EB3h");
@@ -1534,7 +1535,7 @@ typedef union {
     };
 } MDCARHPPSbits_t;
 extern volatile MDCARHPPSbits_t MDCARHPPSbits __attribute__((address(0xEB3)));
-# 3533 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3534 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDSRCPPS __attribute__((address(0xEB4)));
 
 __asm("MDSRCPPS equ 0EB4h");
@@ -1557,7 +1558,7 @@ typedef union {
     };
 } MDSRCPPSbits_t;
 extern volatile MDSRCPPSbits_t MDSRCPPSbits __attribute__((address(0xEB4)));
-# 3599 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3600 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RX1PPS __attribute__((address(0xEB5)));
 
 __asm("RX1PPS equ 0EB5h");
@@ -1576,19 +1577,9 @@ typedef union {
     struct {
         unsigned RXPPS :5;
     };
-    struct {
-        unsigned RX1PPS :5;
-    };
-    struct {
-        unsigned RX1PPS0 :1;
-        unsigned RX1PPS1 :1;
-        unsigned RX1PPS2 :1;
-        unsigned RX1PPS3 :1;
-        unsigned RX1PPS4 :1;
-    };
 } RX1PPSbits_t;
 extern volatile RX1PPSbits_t RX1PPSbits __attribute__((address(0xEB5)));
-# 3676 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3637 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1597,19 +1588,9 @@ typedef union {
     struct {
         unsigned RXPPS :5;
     };
-    struct {
-        unsigned RX1PPS :5;
-    };
-    struct {
-        unsigned RX1PPS0 :1;
-        unsigned RX1PPS1 :1;
-        unsigned RX1PPS2 :1;
-        unsigned RX1PPS3 :1;
-        unsigned RX1PPS4 :1;
-    };
 } RXPPSbits_t;
 extern volatile RXPPSbits_t RXPPSbits __attribute__((address(0xEB5)));
-# 3745 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3666 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CK1PPS __attribute__((address(0xEB6)));
 
 __asm("CK1PPS equ 0EB6h");
@@ -1636,19 +1617,9 @@ typedef union {
     struct {
         unsigned TXPPS :5;
     };
-    struct {
-        unsigned TX1PPS :5;
-    };
-    struct {
-        unsigned TX1PPS0 :1;
-        unsigned TX1PPS1 :1;
-        unsigned TX1PPS2 :1;
-        unsigned TX1PPS3 :1;
-        unsigned TX1PPS4 :1;
-    };
 } CK1PPSbits_t;
 extern volatile CK1PPSbits_t CK1PPSbits __attribute__((address(0xEB6)));
-# 3830 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3711 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1656,20 +1627,10 @@ typedef union {
     };
     struct {
         unsigned TXPPS :5;
-    };
-    struct {
-        unsigned TX1PPS :5;
-    };
-    struct {
-        unsigned TX1PPS0 :1;
-        unsigned TX1PPS1 :1;
-        unsigned TX1PPS2 :1;
-        unsigned TX1PPS3 :1;
-        unsigned TX1PPS4 :1;
     };
 } TX1PPSbits_t;
 extern volatile TX1PPSbits_t TX1PPSbits __attribute__((address(0xEB6)));
-# 3896 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3737 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1677,20 +1638,10 @@ typedef union {
     };
     struct {
         unsigned TXPPS :5;
-    };
-    struct {
-        unsigned TX1PPS :5;
-    };
-    struct {
-        unsigned TX1PPS0 :1;
-        unsigned TX1PPS1 :1;
-        unsigned TX1PPS2 :1;
-        unsigned TX1PPS3 :1;
-        unsigned TX1PPS4 :1;
     };
 } CKPPSbits_t;
 extern volatile CKPPSbits_t CKPPSbits __attribute__((address(0xEB6)));
-# 3962 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3763 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1699,19 +1650,9 @@ typedef union {
     struct {
         unsigned TXPPS :5;
     };
-    struct {
-        unsigned TX1PPS :5;
-    };
-    struct {
-        unsigned TX1PPS0 :1;
-        unsigned TX1PPS1 :1;
-        unsigned TX1PPS2 :1;
-        unsigned TX1PPS3 :1;
-        unsigned TX1PPS4 :1;
-    };
 } TXPPSbits_t;
 extern volatile TXPPSbits_t TXPPSbits __attribute__((address(0xEB6)));
-# 4031 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3792 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1CLKPPS __attribute__((address(0xEB7)));
 
 __asm("SSP1CLKPPS equ 0EB7h");
@@ -1732,7 +1673,7 @@ typedef union {
     };
 } SSP1CLKPPSbits_t;
 extern volatile SSP1CLKPPSbits_t SSP1CLKPPSbits __attribute__((address(0xEB7)));
-# 4068 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3829 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1743,7 +1684,7 @@ typedef union {
     };
 } SSPCLKPPSbits_t;
 extern volatile SSPCLKPPSbits_t SSPCLKPPSbits __attribute__((address(0xEB7)));
-# 4097 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3858 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1DATPPS __attribute__((address(0xEB8)));
 
 __asm("SSP1DATPPS equ 0EB8h");
@@ -1764,7 +1705,7 @@ typedef union {
     };
 } SSP1DATPPSbits_t;
 extern volatile SSP1DATPPSbits_t SSP1DATPPSbits __attribute__((address(0xEB8)));
-# 4134 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3895 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1775,7 +1716,7 @@ typedef union {
     };
 } SSPDATPPSbits_t;
 extern volatile SSPDATPPSbits_t SSPDATPPSbits __attribute__((address(0xEB8)));
-# 4163 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3924 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1SSPPS __attribute__((address(0xEB9)));
 
 __asm("SSP1SSPPS equ 0EB9h");
@@ -1796,7 +1737,7 @@ typedef union {
     };
 } SSP1SSPPSbits_t;
 extern volatile SSP1SSPPSbits_t SSP1SSPPSbits __attribute__((address(0xEB9)));
-# 4200 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3961 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PIN :3;
@@ -1807,7 +1748,7 @@ typedef union {
     };
 } SSPSSPPSbits_t;
 extern volatile SSPSSPPSbits_t SSPSSPPSbits __attribute__((address(0xEB9)));
-# 4229 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 3990 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR0 __attribute__((address(0xEBA)));
 
 __asm("IPR0 equ 0EBAh");
@@ -1824,7 +1765,7 @@ typedef union {
     };
 } IPR0bits_t;
 extern volatile IPR0bits_t IPR0bits __attribute__((address(0xEBA)));
-# 4274 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4035 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR1 __attribute__((address(0xEBB)));
 
 __asm("IPR1 equ 0EBBh");
@@ -1844,7 +1785,7 @@ typedef union {
     };
 } IPR1bits_t;
 extern volatile IPR1bits_t IPR1bits __attribute__((address(0xEBB)));
-# 4322 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4083 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR2 __attribute__((address(0xEBC)));
 
 __asm("IPR2 equ 0EBCh");
@@ -1864,7 +1805,7 @@ typedef union {
     };
 } IPR2bits_t;
 extern volatile IPR2bits_t IPR2bits __attribute__((address(0xEBC)));
-# 4370 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4131 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR3 __attribute__((address(0xEBD)));
 
 __asm("IPR3 equ 0EBDh");
@@ -1889,7 +1830,7 @@ typedef union {
     };
 } IPR3bits_t;
 extern volatile IPR3bits_t IPR3bits __attribute__((address(0xEBD)));
-# 4448 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4209 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR4 __attribute__((address(0xEBE)));
 
 __asm("IPR4 equ 0EBEh");
@@ -1909,7 +1850,7 @@ typedef union {
     };
 } IPR4bits_t;
 extern volatile IPR4bits_t IPR4bits __attribute__((address(0xEBE)));
-# 4506 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4267 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR5 __attribute__((address(0xEBF)));
 
 __asm("IPR5 equ 0EBFh");
@@ -1927,7 +1868,7 @@ typedef union {
     };
 } IPR5bits_t;
 extern volatile IPR5bits_t IPR5bits __attribute__((address(0xEBF)));
-# 4552 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4313 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR6 __attribute__((address(0xEC0)));
 
 __asm("IPR6 equ 0EC0h");
@@ -1940,7 +1881,7 @@ typedef union {
     };
 } IPR6bits_t;
 extern volatile IPR6bits_t IPR6bits __attribute__((address(0xEC0)));
-# 4578 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4339 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IPR7 __attribute__((address(0xEC1)));
 
 __asm("IPR7 equ 0EC1h");
@@ -1959,7 +1900,7 @@ typedef union {
     };
 } IPR7bits_t;
 extern volatile IPR7bits_t IPR7bits __attribute__((address(0xEC1)));
-# 4625 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4386 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE0 __attribute__((address(0xEC2)));
 
 __asm("PIE0 equ 0EC2h");
@@ -1976,7 +1917,7 @@ typedef union {
     };
 } PIE0bits_t;
 extern volatile PIE0bits_t PIE0bits __attribute__((address(0xEC2)));
-# 4670 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4431 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE1 __attribute__((address(0xEC3)));
 
 __asm("PIE1 equ 0EC3h");
@@ -1996,7 +1937,7 @@ typedef union {
     };
 } PIE1bits_t;
 extern volatile PIE1bits_t PIE1bits __attribute__((address(0xEC3)));
-# 4718 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4479 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE2 __attribute__((address(0xEC4)));
 
 __asm("PIE2 equ 0EC4h");
@@ -2016,7 +1957,7 @@ typedef union {
     };
 } PIE2bits_t;
 extern volatile PIE2bits_t PIE2bits __attribute__((address(0xEC4)));
-# 4766 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4527 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE3 __attribute__((address(0xEC5)));
 
 __asm("PIE3 equ 0EC5h");
@@ -2048,7 +1989,7 @@ typedef union {
     };
 } PIE3bits_t;
 extern volatile PIE3bits_t PIE3bits __attribute__((address(0xEC5)));
-# 4876 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4637 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE4 __attribute__((address(0xEC6)));
 
 __asm("PIE4 equ 0EC6h");
@@ -2065,7 +2006,7 @@ typedef union {
     };
 } PIE4bits_t;
 extern volatile PIE4bits_t PIE4bits __attribute__((address(0xEC6)));
-# 4926 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4687 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE5 __attribute__((address(0xEC7)));
 
 __asm("PIE5 equ 0EC7h");
@@ -2079,7 +2020,7 @@ typedef union {
     };
 } PIE5bits_t;
 extern volatile PIE5bits_t PIE5bits __attribute__((address(0xEC7)));
-# 4958 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4719 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE6 __attribute__((address(0xEC8)));
 
 __asm("PIE6 equ 0EC8h");
@@ -2092,7 +2033,7 @@ typedef union {
     };
 } PIE6bits_t;
 extern volatile PIE6bits_t PIE6bits __attribute__((address(0xEC8)));
-# 4984 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4745 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIE7 __attribute__((address(0xEC9)));
 
 __asm("PIE7 equ 0EC9h");
@@ -2111,7 +2052,7 @@ typedef union {
     };
 } PIE7bits_t;
 extern volatile PIE7bits_t PIE7bits __attribute__((address(0xEC9)));
-# 5031 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4792 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR0 __attribute__((address(0xECA)));
 
 __asm("PIR0 equ 0ECAh");
@@ -2128,7 +2069,7 @@ typedef union {
     };
 } PIR0bits_t;
 extern volatile PIR0bits_t PIR0bits __attribute__((address(0xECA)));
-# 5076 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4837 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR1 __attribute__((address(0xECB)));
 
 __asm("PIR1 equ 0ECBh");
@@ -2148,7 +2089,7 @@ typedef union {
     };
 } PIR1bits_t;
 extern volatile PIR1bits_t PIR1bits __attribute__((address(0xECB)));
-# 5124 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4885 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR2 __attribute__((address(0xECC)));
 
 __asm("PIR2 equ 0ECCh");
@@ -2168,7 +2109,7 @@ typedef union {
     };
 } PIR2bits_t;
 extern volatile PIR2bits_t PIR2bits __attribute__((address(0xECC)));
-# 5172 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 4933 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR3 __attribute__((address(0xECD)));
 
 __asm("PIR3 equ 0ECDh");
@@ -2193,7 +2134,7 @@ typedef union {
     };
 } PIR3bits_t;
 extern volatile PIR3bits_t PIR3bits __attribute__((address(0xECD)));
-# 5250 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5011 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR4 __attribute__((address(0xECE)));
 
 __asm("PIR4 equ 0ECEh");
@@ -2210,7 +2151,7 @@ typedef union {
     };
 } PIR4bits_t;
 extern volatile PIR4bits_t PIR4bits __attribute__((address(0xECE)));
-# 5300 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5061 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR5 __attribute__((address(0xECF)));
 
 __asm("PIR5 equ 0ECFh");
@@ -2224,7 +2165,7 @@ typedef union {
     };
 } PIR5bits_t;
 extern volatile PIR5bits_t PIR5bits __attribute__((address(0xECF)));
-# 5332 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5093 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR6 __attribute__((address(0xED0)));
 
 __asm("PIR6 equ 0ED0h");
@@ -2237,7 +2178,7 @@ typedef union {
     };
 } PIR6bits_t;
 extern volatile PIR6bits_t PIR6bits __attribute__((address(0xED0)));
-# 5358 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5119 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PIR7 __attribute__((address(0xED1)));
 
 __asm("PIR7 equ 0ED1h");
@@ -2256,7 +2197,7 @@ typedef union {
     };
 } PIR7bits_t;
 extern volatile PIR7bits_t PIR7bits __attribute__((address(0xED1)));
-# 5405 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5166 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WDTCON0 __attribute__((address(0xED2)));
 
 __asm("WDTCON0 equ 0ED2h");
@@ -2283,7 +2224,7 @@ typedef union {
     };
 } WDTCON0bits_t;
 extern volatile WDTCON0bits_t WDTCON0bits __attribute__((address(0xED2)));
-# 5480 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5241 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WDTCON1 __attribute__((address(0xED3)));
 
 __asm("WDTCON1 equ 0ED3h");
@@ -2314,7 +2255,7 @@ typedef union {
     };
 } WDTCON1bits_t;
 extern volatile WDTCON1bits_t WDTCON1bits __attribute__((address(0xED3)));
-# 5574 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5335 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WDTPSL __attribute__((address(0xED4)));
 
 __asm("WDTPSL equ 0ED4h");
@@ -2349,7 +2290,7 @@ typedef union {
     };
 } WDTPSLbits_t;
 extern volatile WDTPSLbits_t WDTPSLbits __attribute__((address(0xED4)));
-# 5702 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5463 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WDTPSH __attribute__((address(0xED5)));
 
 __asm("WDTPSH equ 0ED5h");
@@ -2384,7 +2325,7 @@ typedef union {
     };
 } WDTPSHbits_t;
 extern volatile WDTPSHbits_t WDTPSHbits __attribute__((address(0xED5)));
-# 5830 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5591 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WDTTMR __attribute__((address(0xED6)));
 
 __asm("WDTTMR equ 0ED6h");
@@ -2409,7 +2350,7 @@ typedef union {
     };
 } WDTTMRbits_t;
 extern volatile WDTTMRbits_t WDTTMRbits __attribute__((address(0xED6)));
-# 5918 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5679 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CPUDOZE __attribute__((address(0xED7)));
 
 __asm("CPUDOZE equ 0ED7h");
@@ -2431,7 +2372,7 @@ typedef union {
     };
 } CPUDOZEbits_t;
 extern volatile CPUDOZEbits_t CPUDOZEbits __attribute__((address(0xED7)));
-# 5983 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5744 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCCON1 __attribute__((address(0xED8)));
 
 __asm("OSCCON1 equ 0ED8h");
@@ -2453,7 +2394,7 @@ typedef union {
     };
 } OSCCON1bits_t;
 extern volatile OSCCON1bits_t OSCCON1bits __attribute__((address(0xED8)));
-# 6053 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5814 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCCON2 __attribute__((address(0xED9)));
 
 __asm("OSCCON2 equ 0ED9h");
@@ -2475,7 +2416,7 @@ typedef union {
     };
 } OSCCON2bits_t;
 extern volatile OSCCON2bits_t OSCCON2bits __attribute__((address(0xED9)));
-# 6123 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5884 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCCON3 __attribute__((address(0xEDA)));
 
 __asm("OSCCON3 equ 0EDAh");
@@ -2492,7 +2433,7 @@ typedef union {
     };
 } OSCCON3bits_t;
 extern volatile OSCCON3bits_t OSCCON3bits __attribute__((address(0xEDA)));
-# 6163 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5924 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCSTAT __attribute__((address(0xEDB)));
 
 __asm("OSCSTAT equ 0EDBh");
@@ -2516,7 +2457,7 @@ typedef union {
     };
 } OSCSTATbits_t;
 extern volatile OSCSTATbits_t OSCSTATbits __attribute__((address(0xEDB)));
-# 6223 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 5984 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned PLLR :1;
@@ -2530,7 +2471,7 @@ typedef union {
     };
 } OSCSTAT1bits_t;
 extern volatile OSCSTAT1bits_t OSCSTAT1bits __attribute__((address(0xEDB)));
-# 6275 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6036 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCEN __attribute__((address(0xEDC)));
 
 __asm("OSCEN equ 0EDCh");
@@ -2548,7 +2489,7 @@ typedef union {
     };
 } OSCENbits_t;
 extern volatile OSCENbits_t OSCENbits __attribute__((address(0xEDC)));
-# 6326 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6087 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCTUNE __attribute__((address(0xEDD)));
 
 __asm("OSCTUNE equ 0EDDh");
@@ -2568,7 +2509,7 @@ typedef union {
     };
 } OSCTUNEbits_t;
 extern volatile OSCTUNEbits_t OSCTUNEbits __attribute__((address(0xEDD)));
-# 6384 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6145 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char OSCFRQ __attribute__((address(0xEDE)));
 
 __asm("OSCFRQ equ 0EDEh");
@@ -2586,7 +2527,7 @@ typedef union {
     };
 } OSCFRQbits_t;
 extern volatile OSCFRQbits_t OSCFRQbits __attribute__((address(0xEDE)));
-# 6430 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6191 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char VREGCON __attribute__((address(0xEDF)));
 
 __asm("VREGCON equ 0EDFh");
@@ -2602,7 +2543,7 @@ typedef union {
     };
 } VREGCONbits_t;
 extern volatile VREGCONbits_t VREGCONbits __attribute__((address(0xEDF)));
-# 6464 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6225 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char BORCON __attribute__((address(0xEE0)));
 
 __asm("BORCON equ 0EE0h");
@@ -2616,7 +2557,7 @@ typedef union {
     };
 } BORCONbits_t;
 extern volatile BORCONbits_t BORCONbits __attribute__((address(0xEE0)));
-# 6491 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6252 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PMD0 __attribute__((address(0xEE1)));
 
 __asm("PMD0 equ 0EE1h");
@@ -2640,7 +2581,7 @@ typedef union {
     };
 } PMD0bits_t;
 extern volatile PMD0bits_t PMD0bits __attribute__((address(0xEE1)));
-# 6568 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6329 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PMD1 __attribute__((address(0xEE2)));
 
 __asm("PMD1 equ 0EE2h");
@@ -2661,7 +2602,7 @@ typedef union {
     };
 } PMD1bits_t;
 extern volatile PMD1bits_t PMD1bits __attribute__((address(0xEE2)));
-# 6632 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6393 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PMD2 __attribute__((address(0xEE3)));
 
 __asm("PMD2 equ 0EE3h");
@@ -2678,7 +2619,7 @@ typedef union {
     };
 } PMD2bits_t;
 extern volatile PMD2bits_t PMD2bits __attribute__((address(0xEE3)));
-# 6677 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6438 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PMD3 __attribute__((address(0xEE4)));
 
 __asm("PMD3 equ 0EE4h");
@@ -2693,7 +2634,7 @@ typedef union {
     };
 } PMD3bits_t;
 extern volatile PMD3bits_t PMD3bits __attribute__((address(0xEE4)));
-# 6715 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6476 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PMD4 __attribute__((address(0xEE5)));
 
 __asm("PMD4 equ 0EE5h");
@@ -2713,7 +2654,7 @@ typedef union {
     };
 } PMD4bits_t;
 extern volatile PMD4bits_t PMD4bits __attribute__((address(0xEE5)));
-# 6768 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6529 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PMD5 __attribute__((address(0xEE6)));
 
 __asm("PMD5 equ 0EE6h");
@@ -2725,7 +2666,7 @@ typedef union {
     };
 } PMD5bits_t;
 extern volatile PMD5bits_t PMD5bits __attribute__((address(0xEE6)));
-# 6788 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6549 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA0PPS __attribute__((address(0xEE7)));
 
 __asm("RA0PPS equ 0EE7h");
@@ -2741,7 +2682,7 @@ typedef union {
     };
 } RA0PPSbits_t;
 extern volatile RA0PPSbits_t RA0PPSbits __attribute__((address(0xEE7)));
-# 6832 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6593 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA1PPS __attribute__((address(0xEE8)));
 
 __asm("RA1PPS equ 0EE8h");
@@ -2757,7 +2698,7 @@ typedef union {
     };
 } RA1PPSbits_t;
 extern volatile RA1PPSbits_t RA1PPSbits __attribute__((address(0xEE8)));
-# 6876 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6637 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA2PPS __attribute__((address(0xEE9)));
 
 __asm("RA2PPS equ 0EE9h");
@@ -2773,7 +2714,7 @@ typedef union {
     };
 } RA2PPSbits_t;
 extern volatile RA2PPSbits_t RA2PPSbits __attribute__((address(0xEE9)));
-# 6920 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6681 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA3PPS __attribute__((address(0xEEA)));
 
 __asm("RA3PPS equ 0EEAh");
@@ -2789,7 +2730,7 @@ typedef union {
     };
 } RA3PPSbits_t;
 extern volatile RA3PPSbits_t RA3PPSbits __attribute__((address(0xEEA)));
-# 6964 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6725 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA4PPS __attribute__((address(0xEEB)));
 
 __asm("RA4PPS equ 0EEBh");
@@ -2805,7 +2746,7 @@ typedef union {
     };
 } RA4PPSbits_t;
 extern volatile RA4PPSbits_t RA4PPSbits __attribute__((address(0xEEB)));
-# 7008 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6769 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA5PPS __attribute__((address(0xEEC)));
 
 __asm("RA5PPS equ 0EECh");
@@ -2821,7 +2762,7 @@ typedef union {
     };
 } RA5PPSbits_t;
 extern volatile RA5PPSbits_t RA5PPSbits __attribute__((address(0xEEC)));
-# 7052 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6813 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA6PPS __attribute__((address(0xEED)));
 
 __asm("RA6PPS equ 0EEDh");
@@ -2837,7 +2778,7 @@ typedef union {
     };
 } RA6PPSbits_t;
 extern volatile RA6PPSbits_t RA6PPSbits __attribute__((address(0xEED)));
-# 7096 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6857 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RA7PPS __attribute__((address(0xEEE)));
 
 __asm("RA7PPS equ 0EEEh");
@@ -2853,7 +2794,7 @@ typedef union {
     };
 } RA7PPSbits_t;
 extern volatile RA7PPSbits_t RA7PPSbits __attribute__((address(0xEEE)));
-# 7140 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6901 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB0PPS __attribute__((address(0xEEF)));
 
 __asm("RB0PPS equ 0EEFh");
@@ -2869,7 +2810,7 @@ typedef union {
     };
 } RB0PPSbits_t;
 extern volatile RB0PPSbits_t RB0PPSbits __attribute__((address(0xEEF)));
-# 7184 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6945 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB1PPS __attribute__((address(0xEF0)));
 
 __asm("RB1PPS equ 0EF0h");
@@ -2885,7 +2826,7 @@ typedef union {
     };
 } RB1PPSbits_t;
 extern volatile RB1PPSbits_t RB1PPSbits __attribute__((address(0xEF0)));
-# 7228 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 6989 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB2PPS __attribute__((address(0xEF1)));
 
 __asm("RB2PPS equ 0EF1h");
@@ -2901,7 +2842,7 @@ typedef union {
     };
 } RB2PPSbits_t;
 extern volatile RB2PPSbits_t RB2PPSbits __attribute__((address(0xEF1)));
-# 7272 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7033 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB3PPS __attribute__((address(0xEF2)));
 
 __asm("RB3PPS equ 0EF2h");
@@ -2917,7 +2858,7 @@ typedef union {
     };
 } RB3PPSbits_t;
 extern volatile RB3PPSbits_t RB3PPSbits __attribute__((address(0xEF2)));
-# 7316 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7077 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB4PPS __attribute__((address(0xEF3)));
 
 __asm("RB4PPS equ 0EF3h");
@@ -2933,7 +2874,7 @@ typedef union {
     };
 } RB4PPSbits_t;
 extern volatile RB4PPSbits_t RB4PPSbits __attribute__((address(0xEF3)));
-# 7360 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7121 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB5PPS __attribute__((address(0xEF4)));
 
 __asm("RB5PPS equ 0EF4h");
@@ -2949,7 +2890,7 @@ typedef union {
     };
 } RB5PPSbits_t;
 extern volatile RB5PPSbits_t RB5PPSbits __attribute__((address(0xEF4)));
-# 7404 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7165 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB6PPS __attribute__((address(0xEF5)));
 
 __asm("RB6PPS equ 0EF5h");
@@ -2965,7 +2906,7 @@ typedef union {
     };
 } RB6PPSbits_t;
 extern volatile RB6PPSbits_t RB6PPSbits __attribute__((address(0xEF5)));
-# 7448 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7209 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RB7PPS __attribute__((address(0xEF6)));
 
 __asm("RB7PPS equ 0EF6h");
@@ -2981,7 +2922,7 @@ typedef union {
     };
 } RB7PPSbits_t;
 extern volatile RB7PPSbits_t RB7PPSbits __attribute__((address(0xEF6)));
-# 7492 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7253 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC0PPS __attribute__((address(0xEF7)));
 
 __asm("RC0PPS equ 0EF7h");
@@ -2997,7 +2938,7 @@ typedef union {
     };
 } RC0PPSbits_t;
 extern volatile RC0PPSbits_t RC0PPSbits __attribute__((address(0xEF7)));
-# 7536 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7297 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC1PPS __attribute__((address(0xEF8)));
 
 __asm("RC1PPS equ 0EF8h");
@@ -3013,7 +2954,7 @@ typedef union {
     };
 } RC1PPSbits_t;
 extern volatile RC1PPSbits_t RC1PPSbits __attribute__((address(0xEF8)));
-# 7580 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7341 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC2PPS __attribute__((address(0xEF9)));
 
 __asm("RC2PPS equ 0EF9h");
@@ -3029,7 +2970,7 @@ typedef union {
     };
 } RC2PPSbits_t;
 extern volatile RC2PPSbits_t RC2PPSbits __attribute__((address(0xEF9)));
-# 7624 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7385 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC3PPS __attribute__((address(0xEFA)));
 
 __asm("RC3PPS equ 0EFAh");
@@ -3045,7 +2986,7 @@ typedef union {
     };
 } RC3PPSbits_t;
 extern volatile RC3PPSbits_t RC3PPSbits __attribute__((address(0xEFA)));
-# 7668 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7429 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC4PPS __attribute__((address(0xEFB)));
 
 __asm("RC4PPS equ 0EFBh");
@@ -3061,7 +3002,7 @@ typedef union {
     };
 } RC4PPSbits_t;
 extern volatile RC4PPSbits_t RC4PPSbits __attribute__((address(0xEFB)));
-# 7712 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7473 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC5PPS __attribute__((address(0xEFC)));
 
 __asm("RC5PPS equ 0EFCh");
@@ -3077,7 +3018,7 @@ typedef union {
     };
 } RC5PPSbits_t;
 extern volatile RC5PPSbits_t RC5PPSbits __attribute__((address(0xEFC)));
-# 7756 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7517 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC6PPS __attribute__((address(0xEFD)));
 
 __asm("RC6PPS equ 0EFDh");
@@ -3093,7 +3034,7 @@ typedef union {
     };
 } RC6PPSbits_t;
 extern volatile RC6PPSbits_t RC6PPSbits __attribute__((address(0xEFD)));
-# 7800 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7561 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC7PPS __attribute__((address(0xEFE)));
 
 __asm("RC7PPS equ 0EFEh");
@@ -3109,7 +3050,7 @@ typedef union {
     };
 } RC7PPSbits_t;
 extern volatile RC7PPSbits_t RC7PPSbits __attribute__((address(0xEFE)));
-# 7844 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7605 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD0PPS __attribute__((address(0xEFF)));
 
 __asm("RD0PPS equ 0EFFh");
@@ -3125,7 +3066,7 @@ typedef union {
     };
 } RD0PPSbits_t;
 extern volatile RD0PPSbits_t RD0PPSbits __attribute__((address(0xEFF)));
-# 7888 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7649 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD1PPS __attribute__((address(0xF00)));
 
 __asm("RD1PPS equ 0F00h");
@@ -3141,7 +3082,7 @@ typedef union {
     };
 } RD1PPSbits_t;
 extern volatile RD1PPSbits_t RD1PPSbits __attribute__((address(0xF00)));
-# 7932 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7693 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD2PPS __attribute__((address(0xF01)));
 
 __asm("RD2PPS equ 0F01h");
@@ -3157,7 +3098,7 @@ typedef union {
     };
 } RD2PPSbits_t;
 extern volatile RD2PPSbits_t RD2PPSbits __attribute__((address(0xF01)));
-# 7976 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7737 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD3PPS __attribute__((address(0xF02)));
 
 __asm("RD3PPS equ 0F02h");
@@ -3173,7 +3114,7 @@ typedef union {
     };
 } RD3PPSbits_t;
 extern volatile RD3PPSbits_t RD3PPSbits __attribute__((address(0xF02)));
-# 8020 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7781 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD4PPS __attribute__((address(0xF03)));
 
 __asm("RD4PPS equ 0F03h");
@@ -3189,7 +3130,7 @@ typedef union {
     };
 } RD4PPSbits_t;
 extern volatile RD4PPSbits_t RD4PPSbits __attribute__((address(0xF03)));
-# 8064 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7825 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD5PPS __attribute__((address(0xF04)));
 
 __asm("RD5PPS equ 0F04h");
@@ -3205,7 +3146,7 @@ typedef union {
     };
 } RD5PPSbits_t;
 extern volatile RD5PPSbits_t RD5PPSbits __attribute__((address(0xF04)));
-# 8108 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7869 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD6PPS __attribute__((address(0xF05)));
 
 __asm("RD6PPS equ 0F05h");
@@ -3221,7 +3162,7 @@ typedef union {
     };
 } RD6PPSbits_t;
 extern volatile RD6PPSbits_t RD6PPSbits __attribute__((address(0xF05)));
-# 8152 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7913 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RD7PPS __attribute__((address(0xF06)));
 
 __asm("RD7PPS equ 0F06h");
@@ -3237,7 +3178,7 @@ typedef union {
     };
 } RD7PPSbits_t;
 extern volatile RD7PPSbits_t RD7PPSbits __attribute__((address(0xF06)));
-# 8196 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 7957 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RE0PPS __attribute__((address(0xF07)));
 
 __asm("RE0PPS equ 0F07h");
@@ -3253,7 +3194,7 @@ typedef union {
     };
 } RE0PPSbits_t;
 extern volatile RE0PPSbits_t RE0PPSbits __attribute__((address(0xF07)));
-# 8240 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8001 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RE1PPS __attribute__((address(0xF08)));
 
 __asm("RE1PPS equ 0F08h");
@@ -3269,7 +3210,7 @@ typedef union {
     };
 } RE1PPSbits_t;
 extern volatile RE1PPSbits_t RE1PPSbits __attribute__((address(0xF08)));
-# 8284 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8045 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RE2PPS __attribute__((address(0xF09)));
 
 __asm("RE2PPS equ 0F09h");
@@ -3285,7 +3226,7 @@ typedef union {
     };
 } RE2PPSbits_t;
 extern volatile RE2PPSbits_t RE2PPSbits __attribute__((address(0xF09)));
-# 8328 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8089 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCAF __attribute__((address(0xF0A)));
 
 __asm("IOCAF equ 0F0Ah");
@@ -3304,7 +3245,7 @@ typedef union {
     };
 } IOCAFbits_t;
 extern volatile IOCAFbits_t IOCAFbits __attribute__((address(0xF0A)));
-# 8390 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8151 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCAN __attribute__((address(0xF0B)));
 
 __asm("IOCAN equ 0F0Bh");
@@ -3323,7 +3264,7 @@ typedef union {
     };
 } IOCANbits_t;
 extern volatile IOCANbits_t IOCANbits __attribute__((address(0xF0B)));
-# 8452 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8213 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCAP __attribute__((address(0xF0C)));
 
 __asm("IOCAP equ 0F0Ch");
@@ -3342,7 +3283,7 @@ typedef union {
     };
 } IOCAPbits_t;
 extern volatile IOCAPbits_t IOCAPbits __attribute__((address(0xF0C)));
-# 8514 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8275 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INLVLA __attribute__((address(0xF0D)));
 
 __asm("INLVLA equ 0F0Dh");
@@ -3361,7 +3302,7 @@ typedef union {
     };
 } INLVLAbits_t;
 extern volatile INLVLAbits_t INLVLAbits __attribute__((address(0xF0D)));
-# 8576 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8337 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SLRCONA __attribute__((address(0xF0E)));
 
 __asm("SLRCONA equ 0F0Eh");
@@ -3380,7 +3321,7 @@ typedef union {
     };
 } SLRCONAbits_t;
 extern volatile SLRCONAbits_t SLRCONAbits __attribute__((address(0xF0E)));
-# 8638 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8399 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ODCONA __attribute__((address(0xF0F)));
 
 __asm("ODCONA equ 0F0Fh");
@@ -3399,7 +3340,7 @@ typedef union {
     };
 } ODCONAbits_t;
 extern volatile ODCONAbits_t ODCONAbits __attribute__((address(0xF0F)));
-# 8700 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8461 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WPUA __attribute__((address(0xF10)));
 
 __asm("WPUA equ 0F10h");
@@ -3418,7 +3359,7 @@ typedef union {
     };
 } WPUAbits_t;
 extern volatile WPUAbits_t WPUAbits __attribute__((address(0xF10)));
-# 8762 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8523 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ANSELA __attribute__((address(0xF11)));
 
 __asm("ANSELA equ 0F11h");
@@ -3437,7 +3378,7 @@ typedef union {
     };
 } ANSELAbits_t;
 extern volatile ANSELAbits_t ANSELAbits __attribute__((address(0xF11)));
-# 8824 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8585 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCBF __attribute__((address(0xF12)));
 
 __asm("IOCBF equ 0F12h");
@@ -3456,7 +3397,7 @@ typedef union {
     };
 } IOCBFbits_t;
 extern volatile IOCBFbits_t IOCBFbits __attribute__((address(0xF12)));
-# 8886 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8647 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCBN __attribute__((address(0xF13)));
 
 __asm("IOCBN equ 0F13h");
@@ -3475,7 +3416,7 @@ typedef union {
     };
 } IOCBNbits_t;
 extern volatile IOCBNbits_t IOCBNbits __attribute__((address(0xF13)));
-# 8948 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8709 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCBP __attribute__((address(0xF14)));
 
 __asm("IOCBP equ 0F14h");
@@ -3494,7 +3435,7 @@ typedef union {
     };
 } IOCBPbits_t;
 extern volatile IOCBPbits_t IOCBPbits __attribute__((address(0xF14)));
-# 9010 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8771 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INLVLB __attribute__((address(0xF15)));
 
 __asm("INLVLB equ 0F15h");
@@ -3513,7 +3454,7 @@ typedef union {
     };
 } INLVLBbits_t;
 extern volatile INLVLBbits_t INLVLBbits __attribute__((address(0xF15)));
-# 9072 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8833 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SLRCONB __attribute__((address(0xF16)));
 
 __asm("SLRCONB equ 0F16h");
@@ -3532,7 +3473,7 @@ typedef union {
     };
 } SLRCONBbits_t;
 extern volatile SLRCONBbits_t SLRCONBbits __attribute__((address(0xF16)));
-# 9134 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8895 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ODCONB __attribute__((address(0xF17)));
 
 __asm("ODCONB equ 0F17h");
@@ -3551,7 +3492,7 @@ typedef union {
     };
 } ODCONBbits_t;
 extern volatile ODCONBbits_t ODCONBbits __attribute__((address(0xF17)));
-# 9196 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 8957 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WPUB __attribute__((address(0xF18)));
 
 __asm("WPUB equ 0F18h");
@@ -3570,7 +3511,7 @@ typedef union {
     };
 } WPUBbits_t;
 extern volatile WPUBbits_t WPUBbits __attribute__((address(0xF18)));
-# 9258 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9019 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ANSELB __attribute__((address(0xF19)));
 
 __asm("ANSELB equ 0F19h");
@@ -3589,7 +3530,7 @@ typedef union {
     };
 } ANSELBbits_t;
 extern volatile ANSELBbits_t ANSELBbits __attribute__((address(0xF19)));
-# 9320 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9081 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCCF __attribute__((address(0xF1A)));
 
 __asm("IOCCF equ 0F1Ah");
@@ -3608,7 +3549,7 @@ typedef union {
     };
 } IOCCFbits_t;
 extern volatile IOCCFbits_t IOCCFbits __attribute__((address(0xF1A)));
-# 9382 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9143 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCCN __attribute__((address(0xF1B)));
 
 __asm("IOCCN equ 0F1Bh");
@@ -3627,7 +3568,7 @@ typedef union {
     };
 } IOCCNbits_t;
 extern volatile IOCCNbits_t IOCCNbits __attribute__((address(0xF1B)));
-# 9444 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9205 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCCP __attribute__((address(0xF1C)));
 
 __asm("IOCCP equ 0F1Ch");
@@ -3646,7 +3587,7 @@ typedef union {
     };
 } IOCCPbits_t;
 extern volatile IOCCPbits_t IOCCPbits __attribute__((address(0xF1C)));
-# 9506 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9267 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INLVLC __attribute__((address(0xF1D)));
 
 __asm("INLVLC equ 0F1Dh");
@@ -3665,7 +3606,7 @@ typedef union {
     };
 } INLVLCbits_t;
 extern volatile INLVLCbits_t INLVLCbits __attribute__((address(0xF1D)));
-# 9568 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9329 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SLRCONC __attribute__((address(0xF1E)));
 
 __asm("SLRCONC equ 0F1Eh");
@@ -3684,7 +3625,7 @@ typedef union {
     };
 } SLRCONCbits_t;
 extern volatile SLRCONCbits_t SLRCONCbits __attribute__((address(0xF1E)));
-# 9630 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9391 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ODCONC __attribute__((address(0xF1F)));
 
 __asm("ODCONC equ 0F1Fh");
@@ -3703,7 +3644,7 @@ typedef union {
     };
 } ODCONCbits_t;
 extern volatile ODCONCbits_t ODCONCbits __attribute__((address(0xF1F)));
-# 9692 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9453 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WPUC __attribute__((address(0xF20)));
 
 __asm("WPUC equ 0F20h");
@@ -3722,7 +3663,7 @@ typedef union {
     };
 } WPUCbits_t;
 extern volatile WPUCbits_t WPUCbits __attribute__((address(0xF20)));
-# 9754 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9515 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ANSELC __attribute__((address(0xF21)));
 
 __asm("ANSELC equ 0F21h");
@@ -3741,7 +3682,7 @@ typedef union {
     };
 } ANSELCbits_t;
 extern volatile ANSELCbits_t ANSELCbits __attribute__((address(0xF21)));
-# 9816 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9577 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INLVLD __attribute__((address(0xF22)));
 
 __asm("INLVLD equ 0F22h");
@@ -3760,7 +3701,7 @@ typedef union {
     };
 } INLVLDbits_t;
 extern volatile INLVLDbits_t INLVLDbits __attribute__((address(0xF22)));
-# 9878 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9639 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SLRCOND __attribute__((address(0xF23)));
 
 __asm("SLRCOND equ 0F23h");
@@ -3779,7 +3720,7 @@ typedef union {
     };
 } SLRCONDbits_t;
 extern volatile SLRCONDbits_t SLRCONDbits __attribute__((address(0xF23)));
-# 9940 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9701 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ODCOND __attribute__((address(0xF24)));
 
 __asm("ODCOND equ 0F24h");
@@ -3798,7 +3739,7 @@ typedef union {
     };
 } ODCONDbits_t;
 extern volatile ODCONDbits_t ODCONDbits __attribute__((address(0xF24)));
-# 10002 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9763 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WPUD __attribute__((address(0xF25)));
 
 __asm("WPUD equ 0F25h");
@@ -3817,7 +3758,7 @@ typedef union {
     };
 } WPUDbits_t;
 extern volatile WPUDbits_t WPUDbits __attribute__((address(0xF25)));
-# 10064 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9825 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ANSELD __attribute__((address(0xF26)));
 
 __asm("ANSELD equ 0F26h");
@@ -3836,7 +3777,7 @@ typedef union {
     };
 } ANSELDbits_t;
 extern volatile ANSELDbits_t ANSELDbits __attribute__((address(0xF26)));
-# 10126 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9887 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCEF __attribute__((address(0xF27)));
 
 __asm("IOCEF equ 0F27h");
@@ -3849,7 +3790,7 @@ typedef union {
     };
 } IOCEFbits_t;
 extern volatile IOCEFbits_t IOCEFbits __attribute__((address(0xF27)));
-# 10147 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9908 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCEN __attribute__((address(0xF28)));
 
 __asm("IOCEN equ 0F28h");
@@ -3862,7 +3803,7 @@ typedef union {
     };
 } IOCENbits_t;
 extern volatile IOCENbits_t IOCENbits __attribute__((address(0xF28)));
-# 10168 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9929 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char IOCEP __attribute__((address(0xF29)));
 
 __asm("IOCEP equ 0F29h");
@@ -3875,7 +3816,7 @@ typedef union {
     };
 } IOCEPbits_t;
 extern volatile IOCEPbits_t IOCEPbits __attribute__((address(0xF29)));
-# 10189 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9950 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INLVLE __attribute__((address(0xF2A)));
 
 __asm("INLVLE equ 0F2Ah");
@@ -3890,7 +3831,7 @@ typedef union {
     };
 } INLVLEbits_t;
 extern volatile INLVLEbits_t INLVLEbits __attribute__((address(0xF2A)));
-# 10227 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 9988 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SLRCONE __attribute__((address(0xF2B)));
 
 __asm("SLRCONE equ 0F2Bh");
@@ -3904,7 +3845,7 @@ typedef union {
     };
 } SLRCONEbits_t;
 extern volatile SLRCONEbits_t SLRCONEbits __attribute__((address(0xF2B)));
-# 10259 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10020 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ODCONE __attribute__((address(0xF2C)));
 
 __asm("ODCONE equ 0F2Ch");
@@ -3918,7 +3859,7 @@ typedef union {
     };
 } ODCONEbits_t;
 extern volatile ODCONEbits_t ODCONEbits __attribute__((address(0xF2C)));
-# 10291 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10052 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WPUE __attribute__((address(0xF2D)));
 
 __asm("WPUE equ 0F2Dh");
@@ -3933,7 +3874,7 @@ typedef union {
     };
 } WPUEbits_t;
 extern volatile WPUEbits_t WPUEbits __attribute__((address(0xF2D)));
-# 10329 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10090 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ANSELE __attribute__((address(0xF2E)));
 
 __asm("ANSELE equ 0F2Eh");
@@ -3947,7 +3888,7 @@ typedef union {
     };
 } ANSELEbits_t;
 extern volatile ANSELEbits_t ANSELEbits __attribute__((address(0xF2E)));
-# 10361 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10122 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char HLVDCON0 __attribute__((address(0xF2F)));
 
 __asm("HLVDCON0 equ 0F2Fh");
@@ -3974,7 +3915,7 @@ typedef union {
     };
 } HLVDCON0bits_t;
 extern volatile HLVDCON0bits_t HLVDCON0bits __attribute__((address(0xF2F)));
-# 10441 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10202 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char HLVDCON1 __attribute__((address(0xF30)));
 
 __asm("HLVDCON1 equ 0F30h");
@@ -3998,7 +3939,7 @@ typedef union {
     };
 } HLVDCON1bits_t;
 extern volatile HLVDCON1bits_t HLVDCON1bits __attribute__((address(0xF30)));
-# 10513 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10274 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char FVRCON __attribute__((address(0xF31)));
 
 __asm("FVRCON equ 0F31h");
@@ -4024,7 +3965,7 @@ typedef union {
     };
 } FVRCONbits_t;
 extern volatile FVRCONbits_t FVRCONbits __attribute__((address(0xF31)));
-# 10602 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10363 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ZCDCON __attribute__((address(0xF32)));
 
 __asm("ZCDCON equ 0F32h");
@@ -4051,7 +3992,7 @@ typedef union {
     };
 } ZCDCONbits_t;
 extern volatile ZCDCONbits_t ZCDCONbits __attribute__((address(0xF32)));
-# 10682 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10443 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char DAC1CON0 __attribute__((address(0xF33)));
 
 __asm("DAC1CON0 equ 0F33h");
@@ -4084,7 +4025,7 @@ typedef union {
     };
 } DAC1CON0bits_t;
 extern volatile DAC1CON0bits_t DAC1CON0bits __attribute__((address(0xF33)));
-# 10783 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10544 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char DAC1CON1 __attribute__((address(0xF34)));
 
 __asm("DAC1CON1 equ 0F34h");
@@ -4103,7 +4044,7 @@ typedef union {
     };
 } DAC1CON1bits_t;
 extern volatile DAC1CON1bits_t DAC1CON1bits __attribute__((address(0xF34)));
-# 10835 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10596 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM2CON0 __attribute__((address(0xF35)));
 
 __asm("CM2CON0 equ 0F35h");
@@ -4130,7 +4071,7 @@ typedef union {
     };
 } CM2CON0bits_t;
 extern volatile CM2CON0bits_t CM2CON0bits __attribute__((address(0xF35)));
-# 10915 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10676 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM2CON1 __attribute__((address(0xF36)));
 
 __asm("CM2CON1 equ 0F36h");
@@ -4147,7 +4088,7 @@ typedef union {
     };
 } CM2CON1bits_t;
 extern volatile CM2CON1bits_t CM2CON1bits __attribute__((address(0xF36)));
-# 10955 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10716 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM2NCH __attribute__((address(0xF37)));
 
 __asm("CM2NCH equ 0F37h");
@@ -4169,7 +4110,7 @@ typedef union {
     };
 } CM2NCHbits_t;
 extern volatile CM2NCHbits_t CM2NCHbits __attribute__((address(0xF37)));
-# 11015 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10776 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM2PCH __attribute__((address(0xF38)));
 
 __asm("CM2PCH equ 0F38h");
@@ -4191,7 +4132,7 @@ typedef union {
     };
 } CM2PCHbits_t;
 extern volatile CM2PCHbits_t CM2PCHbits __attribute__((address(0xF38)));
-# 11075 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10836 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM1CON0 __attribute__((address(0xF39)));
 
 __asm("CM1CON0 equ 0F39h");
@@ -4218,7 +4159,7 @@ typedef union {
     };
 } CM1CON0bits_t;
 extern volatile CM1CON0bits_t CM1CON0bits __attribute__((address(0xF39)));
-# 11155 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10916 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM1CON1 __attribute__((address(0xF3A)));
 
 __asm("CM1CON1 equ 0F3Ah");
@@ -4235,7 +4176,7 @@ typedef union {
     };
 } CM1CON1bits_t;
 extern volatile CM1CON1bits_t CM1CON1bits __attribute__((address(0xF3A)));
-# 11195 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 10956 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM1NCH __attribute__((address(0xF3B)));
 
 __asm("CM1NCH equ 0F3Bh");
@@ -4257,7 +4198,7 @@ typedef union {
     };
 } CM1NCHbits_t;
 extern volatile CM1NCHbits_t CM1NCHbits __attribute__((address(0xF3B)));
-# 11255 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11016 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CM1PCH __attribute__((address(0xF3C)));
 
 __asm("CM1PCH equ 0F3Ch");
@@ -4279,7 +4220,7 @@ typedef union {
     };
 } CM1PCHbits_t;
 extern volatile CM1PCHbits_t CM1PCHbits __attribute__((address(0xF3C)));
-# 11315 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11076 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CMOUT __attribute__((address(0xF3D)));
 
 __asm("CMOUT equ 0F3Dh");
@@ -4292,7 +4233,7 @@ typedef union {
     };
 } CMOUTbits_t;
 extern volatile CMOUTbits_t CMOUTbits __attribute__((address(0xF3D)));
-# 11341 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11102 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CLKRCON __attribute__((address(0xF3E)));
 
 __asm("CLKRCON equ 0F3Eh");
@@ -4323,7 +4264,7 @@ typedef union {
     };
 } CLKRCONbits_t;
 extern volatile CLKRCONbits_t CLKRCONbits __attribute__((address(0xF3E)));
-# 11445 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11206 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CLKRCLK __attribute__((address(0xF3F)));
 
 __asm("CLKRCLK equ 0F3Fh");
@@ -4345,7 +4286,7 @@ typedef union {
     };
 } CLKRCLKbits_t;
 extern volatile CLKRCLKbits_t CLKRCLKbits __attribute__((address(0xF3F)));
-# 11505 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11266 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1CLK __attribute__((address(0xF40)));
 
 __asm("CWG1CLK equ 0F40h");
@@ -4365,7 +4306,7 @@ typedef union {
     };
 } CWG1CLKbits_t;
 extern volatile CWG1CLKbits_t CWG1CLKbits __attribute__((address(0xF40)));
-# 11536 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11297 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :1;
@@ -4375,7 +4316,7 @@ typedef union {
     };
 } CWG1CLKCONbits_t;
 extern volatile CWG1CLKCONbits_t CWG1CLKCONbits __attribute__((address(0xF40)));
-# 11559 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11320 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1ISM __attribute__((address(0xF41)));
 
 __asm("CWG1ISM equ 0F41h");
@@ -4383,18 +4324,17 @@ __asm("CWG1ISM equ 0F41h");
 
 typedef union {
     struct {
-        unsigned IS :5;
+        unsigned IS :4;
     };
     struct {
         unsigned CWG1ISM0 :1;
         unsigned CWG1ISM1 :1;
         unsigned CWG1ISM2 :1;
-        unsigned :1;
-        unsigned CWG1ISM4 :1;
+        unsigned CWG1ISM3 :1;
     };
 } CWG1ISMbits_t;
 extern volatile CWG1ISMbits_t CWG1ISMbits __attribute__((address(0xF41)));
-# 11606 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11366 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1DBR __attribute__((address(0xF42)));
 
 __asm("CWG1DBR equ 0F42h");
@@ -4425,7 +4365,7 @@ typedef union {
     };
 } CWG1DBRbits_t;
 extern volatile CWG1DBRbits_t CWG1DBRbits __attribute__((address(0xF42)));
-# 11710 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11470 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1DBF __attribute__((address(0xF43)));
 
 __asm("CWG1DBF equ 0F43h");
@@ -4456,7 +4396,7 @@ typedef union {
     };
 } CWG1DBFbits_t;
 extern volatile CWG1DBFbits_t CWG1DBFbits __attribute__((address(0xF43)));
-# 11814 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11574 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1CON0 __attribute__((address(0xF44)));
 
 __asm("CWG1CON0 equ 0F44h");
@@ -4489,7 +4429,7 @@ typedef union {
     };
 } CWG1CON0bits_t;
 extern volatile CWG1CON0bits_t CWG1CON0bits __attribute__((address(0xF44)));
-# 11915 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11675 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1CON1 __attribute__((address(0xF45)));
 
 __asm("CWG1CON1 equ 0F45h");
@@ -4514,7 +4454,7 @@ typedef union {
     };
 } CWG1CON1bits_t;
 extern volatile CWG1CON1bits_t CWG1CON1bits __attribute__((address(0xF45)));
-# 11993 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11753 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1AS0 __attribute__((address(0xF46)));
 
 __asm("CWG1AS0 equ 0F46h");
@@ -4551,7 +4491,7 @@ typedef union {
     };
 } CWG1AS0bits_t;
 extern volatile CWG1AS0bits_t CWG1AS0bits __attribute__((address(0xF46)));
-# 12113 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11873 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1AS1 __attribute__((address(0xF47)));
 
 __asm("CWG1AS1 equ 0F47h");
@@ -4568,7 +4508,7 @@ typedef union {
     };
 } CWG1AS1bits_t;
 extern volatile CWG1AS1bits_t CWG1AS1bits __attribute__((address(0xF47)));
-# 12163 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 11923 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CWG1STR __attribute__((address(0xF48)));
 
 __asm("CWG1STR equ 0F48h");
@@ -4597,7 +4537,7 @@ typedef union {
     };
 } CWG1STRbits_t;
 extern volatile CWG1STRbits_t CWG1STRbits __attribute__((address(0xF48)));
-# 12276 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12036 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile __uint24 SCANLADR __attribute__((address(0xF49)));
 
 
@@ -4640,7 +4580,7 @@ typedef union {
     };
 } SCANLADRLbits_t;
 extern volatile SCANLADRLbits_t SCANLADRLbits __attribute__((address(0xF49)));
-# 12412 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12172 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SCANLADRH __attribute__((address(0xF4A)));
 
 __asm("SCANLADRH equ 0F4Ah");
@@ -4675,7 +4615,7 @@ typedef union {
     };
 } SCANLADRHbits_t;
 extern volatile SCANLADRHbits_t SCANLADRHbits __attribute__((address(0xF4A)));
-# 12540 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12300 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SCANLADRU __attribute__((address(0xF4B)));
 
 __asm("SCANLADRU equ 0F4Bh");
@@ -4706,7 +4646,7 @@ typedef union {
     };
 } SCANLADRUbits_t;
 extern volatile SCANLADRUbits_t SCANLADRUbits __attribute__((address(0xF4B)));
-# 12645 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12405 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile __uint24 SCANHADR __attribute__((address(0xF4C)));
 
 
@@ -4749,7 +4689,7 @@ typedef union {
     };
 } SCANHADRLbits_t;
 extern volatile SCANHADRLbits_t SCANHADRLbits __attribute__((address(0xF4C)));
-# 12781 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12541 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SCANHADRH __attribute__((address(0xF4D)));
 
 __asm("SCANHADRH equ 0F4Dh");
@@ -4784,7 +4724,7 @@ typedef union {
     };
 } SCANHADRHbits_t;
 extern volatile SCANHADRHbits_t SCANHADRHbits __attribute__((address(0xF4D)));
-# 12909 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12669 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SCANHADRU __attribute__((address(0xF4E)));
 
 __asm("SCANHADRU equ 0F4Eh");
@@ -4815,7 +4755,7 @@ typedef union {
     };
 } SCANHADRUbits_t;
 extern volatile SCANHADRUbits_t SCANHADRUbits __attribute__((address(0xF4E)));
-# 13013 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12773 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SCANCON0 __attribute__((address(0xF4F)));
 
 __asm("SCANCON0 equ 0F4Fh");
@@ -4854,7 +4794,7 @@ typedef union {
     };
 } SCANCON0bits_t;
 extern volatile SCANCON0bits_t SCANCON0bits __attribute__((address(0xF4F)));
-# 13140 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12900 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SCANTRIG __attribute__((address(0xF50)));
 
 __asm("SCANTRIG equ 0F50h");
@@ -4881,7 +4821,7 @@ typedef union {
     };
 } SCANTRIGbits_t;
 extern volatile SCANTRIGbits_t SCANTRIGbits __attribute__((address(0xF50)));
-# 13220 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 12980 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDCON0 __attribute__((address(0xF51)));
 
 __asm("MDCON0 equ 0F51h");
@@ -4906,7 +4846,7 @@ typedef union {
     };
 } MDCON0bits_t;
 extern volatile MDCON0bits_t MDCON0bits __attribute__((address(0xF51)));
-# 13288 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13048 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDCON1 __attribute__((address(0xF52)));
 
 __asm("MDCON1 equ 0F52h");
@@ -4929,7 +4869,7 @@ typedef union {
     };
 } MDCON1bits_t;
 extern volatile MDCON1bits_t MDCON1bits __attribute__((address(0xF52)));
-# 13354 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13114 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDSRC __attribute__((address(0xF53)));
 
 __asm("MDSRC equ 0F53h");
@@ -4937,13 +4877,13 @@ __asm("MDSRC equ 0F53h");
 
 typedef union {
     struct {
+        unsigned SRCS :4;
+    };
+    struct {
         unsigned SRCS0 :1;
         unsigned SRCS1 :1;
         unsigned SRCS2 :1;
         unsigned SRCS3 :1;
-    };
-    struct {
-        unsigned SRCS :4;
     };
     struct {
         unsigned MDSRCS :4;
@@ -4956,7 +4896,7 @@ typedef union {
     };
 } MDSRCbits_t;
 extern volatile MDSRCbits_t MDSRCbits __attribute__((address(0xF53)));
-# 13434 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13194 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDCARL __attribute__((address(0xF54)));
 
 __asm("MDCARL equ 0F54h");
@@ -4967,6 +4907,11 @@ typedef union {
         unsigned CLS :3;
     };
     struct {
+        unsigned CLS0 :1;
+        unsigned CLS1 :1;
+        unsigned CLS2 :1;
+    };
+    struct {
         unsigned MDCLS :3;
     };
     struct {
@@ -4974,14 +4919,9 @@ typedef union {
         unsigned MDCLS1 :1;
         unsigned MDCLS2 :1;
     };
-    struct {
-        unsigned CLS0 :1;
-        unsigned CLS1 :1;
-        unsigned CLS2 :1;
-    };
 } MDCARLbits_t;
 extern volatile MDCARLbits_t MDCARLbits __attribute__((address(0xF54)));
-# 13502 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13262 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char MDCARH __attribute__((address(0xF55)));
 
 __asm("MDCARH equ 0F55h");
@@ -4997,7 +4937,7 @@ typedef union {
         unsigned CHS2 :1;
     };
     struct {
-        unsigned MDCHS :3;
+        unsigned MDCHS :4;
     };
     struct {
         unsigned MDCHS0 :1;
@@ -5006,7 +4946,7 @@ typedef union {
     };
 } MDCARHbits_t;
 extern volatile MDCARHbits_t MDCARHbits __attribute__((address(0xF55)));
-# 13570 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13330 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADACT __attribute__((address(0xF56)));
 
 __asm("ADACT equ 0F56h");
@@ -5025,7 +4965,7 @@ typedef union {
     };
 } ADACTbits_t;
 extern volatile ADACTbits_t ADACTbits __attribute__((address(0xF56)));
-# 13622 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13382 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCLK __attribute__((address(0xF57)));
 
 __asm("ADCLK equ 0F57h");
@@ -5045,7 +4985,7 @@ typedef union {
     };
 } ADCLKbits_t;
 extern volatile ADCLKbits_t ADCLKbits __attribute__((address(0xF57)));
-# 13680 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13440 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADREF __attribute__((address(0xF58)));
 
 __asm("ADREF equ 0F58h");
@@ -5063,7 +5003,7 @@ typedef union {
     };
 } ADREFbits_t;
 extern volatile ADREFbits_t ADREFbits __attribute__((address(0xF58)));
-# 13721 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13481 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCON1 __attribute__((address(0xF59)));
 
 __asm("ADCON1 equ 0F59h");
@@ -5079,7 +5019,7 @@ typedef union {
     };
 } ADCON1bits_t;
 extern volatile ADCON1bits_t ADCON1bits __attribute__((address(0xF59)));
-# 13760 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13520 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCON2 __attribute__((address(0xF5A)));
 
 __asm("ADCON2 equ 0F5Ah");
@@ -5103,7 +5043,7 @@ typedef union {
     };
 } ADCON2bits_t;
 extern volatile ADCON2bits_t ADCON2bits __attribute__((address(0xF5A)));
-# 13837 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13597 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCON3 __attribute__((address(0xF5B)));
 
 __asm("ADCON3 equ 0F5Bh");
@@ -5126,7 +5066,7 @@ typedef union {
     };
 } ADCON3bits_t;
 extern volatile ADCON3bits_t ADCON3bits __attribute__((address(0xF5B)));
-# 13908 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13668 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADACQ __attribute__((address(0xF5C)));
 
 __asm("ADACQ equ 0F5Ch");
@@ -5148,7 +5088,7 @@ typedef union {
     };
 } ADACQbits_t;
 extern volatile ADACQbits_t ADACQbits __attribute__((address(0xF5C)));
-# 13978 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13738 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCAP __attribute__((address(0xF5D)));
 
 __asm("ADCAP equ 0F5Dh");
@@ -5167,7 +5107,7 @@ typedef union {
     };
 } ADCAPbits_t;
 extern volatile ADCAPbits_t ADCAPbits __attribute__((address(0xF5D)));
-# 14030 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13790 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADPRE __attribute__((address(0xF5E)));
 
 __asm("ADPRE equ 0F5Eh");
@@ -5189,7 +5129,7 @@ typedef union {
     };
 } ADPREbits_t;
 extern volatile ADPREbits_t ADPREbits __attribute__((address(0xF5E)));
-# 14100 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13860 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADPCH __attribute__((address(0xF5F)));
 
 __asm("ADPCH equ 0F5Fh");
@@ -5209,7 +5149,7 @@ typedef union {
     };
 } ADPCHbits_t;
 extern volatile ADPCHbits_t ADPCHbits __attribute__((address(0xF5F)));
-# 14158 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 13918 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCON0 __attribute__((address(0xF60)));
 
 __asm("ADCON0 equ 0F60h");
@@ -5246,7 +5186,7 @@ typedef union {
     };
 } ADCON0bits_t;
 extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xF60)));
-# 14253 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14013 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADPREV __attribute__((address(0xF61)));
 
 __asm("ADPREV equ 0F61h");
@@ -5275,7 +5215,7 @@ typedef union {
     };
 } ADPREVLbits_t;
 extern volatile ADPREVLbits_t ADPREVLbits __attribute__((address(0xF61)));
-# 14330 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14090 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADPREVH __attribute__((address(0xF62)));
 
 __asm("ADPREVH equ 0F62h");
@@ -5297,7 +5237,7 @@ typedef union {
     };
 } ADPREVHbits_t;
 extern volatile ADPREVHbits_t ADPREVHbits __attribute__((address(0xF62)));
-# 14400 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14160 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADRES __attribute__((address(0xF63)));
 
 __asm("ADRES equ 0F63h");
@@ -5326,7 +5266,7 @@ typedef union {
     };
 } ADRESLbits_t;
 extern volatile ADRESLbits_t ADRESLbits __attribute__((address(0xF63)));
-# 14477 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14237 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADRESH __attribute__((address(0xF64)));
 
 __asm("ADRESH equ 0F64h");
@@ -5345,7 +5285,7 @@ typedef union {
     };
 } ADRESHbits_t;
 extern volatile ADRESHbits_t ADRESHbits __attribute__((address(0xF64)));
-# 14539 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14299 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADSTAT __attribute__((address(0xF65)));
 
 __asm("ADSTAT equ 0F65h");
@@ -5367,7 +5307,7 @@ typedef union {
     };
 } ADSTATbits_t;
 extern volatile ADSTATbits_t ADSTATbits __attribute__((address(0xF65)));
-# 14604 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14364 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADRPT __attribute__((address(0xF66)));
 
 __asm("ADRPT equ 0F66h");
@@ -5389,7 +5329,7 @@ typedef union {
     };
 } ADRPTbits_t;
 extern volatile ADRPTbits_t ADRPTbits __attribute__((address(0xF66)));
-# 14674 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14434 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADCNT __attribute__((address(0xF67)));
 
 __asm("ADCNT equ 0F67h");
@@ -5411,7 +5351,7 @@ typedef union {
     };
 } ADCNTbits_t;
 extern volatile ADCNTbits_t ADCNTbits __attribute__((address(0xF67)));
-# 14744 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14504 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADSTPT __attribute__((address(0xF68)));
 
 __asm("ADSTPT equ 0F68h");
@@ -5440,7 +5380,7 @@ typedef union {
     };
 } ADSTPTLbits_t;
 extern volatile ADSTPTLbits_t ADSTPTLbits __attribute__((address(0xF68)));
-# 14821 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14581 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADSTPTH __attribute__((address(0xF69)));
 
 __asm("ADSTPTH equ 0F69h");
@@ -5462,7 +5402,7 @@ typedef union {
     };
 } ADSTPTHbits_t;
 extern volatile ADSTPTHbits_t ADSTPTHbits __attribute__((address(0xF69)));
-# 14891 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14651 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADLTH __attribute__((address(0xF6A)));
 
 __asm("ADLTH equ 0F6Ah");
@@ -5491,7 +5431,7 @@ typedef union {
     };
 } ADLTHLbits_t;
 extern volatile ADLTHLbits_t ADLTHLbits __attribute__((address(0xF6A)));
-# 14968 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14728 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADLTHH __attribute__((address(0xF6B)));
 
 __asm("ADLTHH equ 0F6Bh");
@@ -5513,7 +5453,7 @@ typedef union {
     };
 } ADLTHHbits_t;
 extern volatile ADLTHHbits_t ADLTHHbits __attribute__((address(0xF6B)));
-# 15038 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14798 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADUTH __attribute__((address(0xF6C)));
 
 __asm("ADUTH equ 0F6Ch");
@@ -5542,7 +5482,7 @@ typedef union {
     };
 } ADUTHLbits_t;
 extern volatile ADUTHLbits_t ADUTHLbits __attribute__((address(0xF6C)));
-# 15115 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14875 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADUTHH __attribute__((address(0xF6D)));
 
 __asm("ADUTHH equ 0F6Dh");
@@ -5564,7 +5504,7 @@ typedef union {
     };
 } ADUTHHbits_t;
 extern volatile ADUTHHbits_t ADUTHHbits __attribute__((address(0xF6D)));
-# 15185 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 14945 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADERR __attribute__((address(0xF6E)));
 
 __asm("ADERR equ 0F6Eh");
@@ -5593,7 +5533,7 @@ typedef union {
     };
 } ADERRLbits_t;
 extern volatile ADERRLbits_t ADERRLbits __attribute__((address(0xF6E)));
-# 15262 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15022 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADERRH __attribute__((address(0xF6F)));
 
 __asm("ADERRH equ 0F6Fh");
@@ -5615,7 +5555,7 @@ typedef union {
     };
 } ADERRHbits_t;
 extern volatile ADERRHbits_t ADERRHbits __attribute__((address(0xF6F)));
-# 15332 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15092 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADACC __attribute__((address(0xF70)));
 
 __asm("ADACC equ 0F70h");
@@ -5644,7 +5584,7 @@ typedef union {
     };
 } ADACCLbits_t;
 extern volatile ADACCLbits_t ADACCLbits __attribute__((address(0xF70)));
-# 15409 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15169 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADACCH __attribute__((address(0xF71)));
 
 __asm("ADACCH equ 0F71h");
@@ -5666,7 +5606,7 @@ typedef union {
     };
 } ADACCHbits_t;
 extern volatile ADACCHbits_t ADACCHbits __attribute__((address(0xF71)));
-# 15479 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15239 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short ADFLTR __attribute__((address(0xF72)));
 
 __asm("ADFLTR equ 0F72h");
@@ -5695,7 +5635,7 @@ typedef union {
     };
 } ADFLTRLbits_t;
 extern volatile ADFLTRLbits_t ADFLTRLbits __attribute__((address(0xF72)));
-# 15556 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15316 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char ADFLTRH __attribute__((address(0xF73)));
 
 __asm("ADFLTRH equ 0F73h");
@@ -5717,7 +5657,7 @@ typedef union {
     };
 } ADFLTRHbits_t;
 extern volatile ADFLTRHbits_t ADFLTRHbits __attribute__((address(0xF73)));
-# 15626 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15386 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short CRCDATA __attribute__((address(0xF74)));
 
 __asm("CRCDATA equ 0F74h");
@@ -5743,7 +5683,7 @@ typedef union {
     };
 } CRCDATLbits_t;
 extern volatile CRCDATLbits_t CRCDATLbits __attribute__((address(0xF74)));
-# 15695 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15455 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CRCDATH __attribute__((address(0xF75)));
 
 __asm("CRCDATH equ 0F75h");
@@ -5762,7 +5702,7 @@ typedef union {
     };
 } CRCDATHbits_t;
 extern volatile CRCDATHbits_t CRCDATHbits __attribute__((address(0xF75)));
-# 15757 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15517 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short CRCACC __attribute__((address(0xF76)));
 
 __asm("CRCACC equ 0F76h");
@@ -5788,7 +5728,7 @@ typedef union {
     };
 } CRCACCLbits_t;
 extern volatile CRCACCLbits_t CRCACCLbits __attribute__((address(0xF76)));
-# 15826 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15586 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CRCACCH __attribute__((address(0xF77)));
 
 __asm("CRCACCH equ 0F77h");
@@ -5807,7 +5747,7 @@ typedef union {
     };
 } CRCACCHbits_t;
 extern volatile CRCACCHbits_t CRCACCHbits __attribute__((address(0xF77)));
-# 15888 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15648 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short CRCSHFT __attribute__((address(0xF78)));
 
 __asm("CRCSHFT equ 0F78h");
@@ -5833,7 +5773,7 @@ typedef union {
     };
 } CRCSHIFTLbits_t;
 extern volatile CRCSHIFTLbits_t CRCSHIFTLbits __attribute__((address(0xF78)));
-# 15957 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15717 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CRCSHIFTH __attribute__((address(0xF79)));
 
 __asm("CRCSHIFTH equ 0F79h");
@@ -5852,7 +5792,7 @@ typedef union {
     };
 } CRCSHIFTHbits_t;
 extern volatile CRCSHIFTHbits_t CRCSHIFTHbits __attribute__((address(0xF79)));
-# 16019 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15779 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short CRCXOR __attribute__((address(0xF7A)));
 
 __asm("CRCXOR equ 0F7Ah");
@@ -5878,7 +5818,7 @@ typedef union {
     };
 } CRCXORLbits_t;
 extern volatile CRCXORLbits_t CRCXORLbits __attribute__((address(0xF7A)));
-# 16083 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15843 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CRCXORH __attribute__((address(0xF7B)));
 
 __asm("CRCXORH equ 0F7Bh");
@@ -5897,7 +5837,7 @@ typedef union {
     };
 } CRCXORHbits_t;
 extern volatile CRCXORHbits_t CRCXORHbits __attribute__((address(0xF7B)));
-# 16145 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15905 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CRCCON0 __attribute__((address(0xF7C)));
 
 __asm("CRCCON0 equ 0F7Ch");
@@ -5919,7 +5859,7 @@ typedef union {
     };
 } CRCCON0bits_t;
 extern volatile CRCCON0bits_t CRCCON0bits __attribute__((address(0xF7C)));
-# 16205 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 15965 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CRCCON1 __attribute__((address(0xF7D)));
 
 __asm("CRCCON1 equ 0F7Dh");
@@ -5942,7 +5882,7 @@ typedef union {
     };
 } CRCCON1bits_t;
 extern volatile CRCCON1bits_t CRCCON1bits __attribute__((address(0xF7D)));
-# 16281 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16041 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short NVMADR __attribute__((address(0xF7E)));
 
 __asm("NVMADR equ 0F7Eh");
@@ -5984,7 +5924,7 @@ typedef union {
     };
 } NVMADRLbits_t;
 extern volatile NVMADRLbits_t NVMADRLbits __attribute__((address(0xF7E)));
-# 16416 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16176 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char NVMADRH __attribute__((address(0xF7F)));
 
 __asm("NVMADRH equ 0F7Fh");
@@ -6007,7 +5947,7 @@ typedef union {
     };
 } NVMADRHbits_t;
 extern volatile NVMADRHbits_t NVMADRHbits __attribute__((address(0xF7F)));
-# 16472 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16232 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char NVMDAT __attribute__((address(0xF80)));
 
 __asm("NVMDAT equ 0F80h");
@@ -6029,7 +5969,7 @@ typedef union {
     };
 } NVMDATbits_t;
 extern volatile NVMDATbits_t NVMDATbits __attribute__((address(0xF80)));
-# 16542 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16302 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char NVMCON1 __attribute__((address(0xF81)));
 
 __asm("NVMCON1 equ 0F81h");
@@ -6052,7 +5992,7 @@ typedef union {
     };
 } NVMCON1bits_t;
 extern volatile NVMCON1bits_t NVMCON1bits __attribute__((address(0xF81)));
-# 16608 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16368 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char NVMCON2 __attribute__((address(0xF82)));
 
 __asm("NVMCON2 equ 0F82h");
@@ -6064,7 +6004,7 @@ typedef union {
     };
 } NVMCON2bits_t;
 extern volatile NVMCON2bits_t NVMCON2bits __attribute__((address(0xF82)));
-# 16628 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16388 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char LATA __attribute__((address(0xF83)));
 
 __asm("LATA equ 0F83h");
@@ -6093,7 +6033,7 @@ typedef union {
     };
 } LATAbits_t;
 extern volatile LATAbits_t LATAbits __attribute__((address(0xF83)));
-# 16740 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16500 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char LATB __attribute__((address(0xF84)));
 
 __asm("LATB equ 0F84h");
@@ -6122,7 +6062,7 @@ typedef union {
     };
 } LATBbits_t;
 extern volatile LATBbits_t LATBbits __attribute__((address(0xF84)));
-# 16852 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16612 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char LATC __attribute__((address(0xF85)));
 
 __asm("LATC equ 0F85h");
@@ -6151,7 +6091,7 @@ typedef union {
     };
 } LATCbits_t;
 extern volatile LATCbits_t LATCbits __attribute__((address(0xF85)));
-# 16964 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16724 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char LATD __attribute__((address(0xF86)));
 
 __asm("LATD equ 0F86h");
@@ -6180,7 +6120,7 @@ typedef union {
     };
 } LATDbits_t;
 extern volatile LATDbits_t LATDbits __attribute__((address(0xF86)));
-# 17076 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16836 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char LATE __attribute__((address(0xF87)));
 
 __asm("LATE equ 0F87h");
@@ -6219,7 +6159,7 @@ typedef union {
     };
 } LATEbits_t;
 extern volatile LATEbits_t LATEbits __attribute__((address(0xF87)));
-# 17173 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16933 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TRISA __attribute__((address(0xF88)));
 
 __asm("TRISA equ 0F88h");
@@ -6243,7 +6183,7 @@ typedef union {
     };
 } TRISAbits_t;
 extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF88)));
-# 17238 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 16998 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TRISA0 :1;
@@ -6257,7 +6197,7 @@ typedef union {
     };
 } DDRAbits_t;
 extern volatile DDRAbits_t DDRAbits __attribute__((address(0xF88)));
-# 17295 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17055 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TRISB __attribute__((address(0xF89)));
 
 __asm("TRISB equ 0F89h");
@@ -6281,7 +6221,7 @@ typedef union {
     };
 } TRISBbits_t;
 extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF89)));
-# 17360 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17120 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TRISB0 :1;
@@ -6295,7 +6235,7 @@ typedef union {
     };
 } DDRBbits_t;
 extern volatile DDRBbits_t DDRBbits __attribute__((address(0xF89)));
-# 17417 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17177 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TRISC __attribute__((address(0xF8A)));
 
 __asm("TRISC equ 0F8Ah");
@@ -6319,7 +6259,7 @@ typedef union {
     };
 } TRISCbits_t;
 extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF8A)));
-# 17482 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17242 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TRISC0 :1;
@@ -6333,7 +6273,7 @@ typedef union {
     };
 } DDRCbits_t;
 extern volatile DDRCbits_t DDRCbits __attribute__((address(0xF8A)));
-# 17539 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17299 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TRISD __attribute__((address(0xF8B)));
 
 __asm("TRISD equ 0F8Bh");
@@ -6357,7 +6297,7 @@ typedef union {
     };
 } TRISDbits_t;
 extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF8B)));
-# 17604 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17364 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TRISD0 :1;
@@ -6371,7 +6311,7 @@ typedef union {
     };
 } DDRDbits_t;
 extern volatile DDRDbits_t DDRDbits __attribute__((address(0xF8B)));
-# 17661 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17421 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TRISE __attribute__((address(0xF8C)));
 
 __asm("TRISE equ 0F8Ch");
@@ -6390,7 +6330,7 @@ typedef union {
     };
 } TRISEbits_t;
 extern volatile TRISEbits_t TRISEbits __attribute__((address(0xF8C)));
-# 17696 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17456 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TRISE0 :1;
@@ -6399,7 +6339,7 @@ typedef union {
     };
 } DDREbits_t;
 extern volatile DDREbits_t DDREbits __attribute__((address(0xF8C)));
-# 17723 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17483 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PORTA __attribute__((address(0xF8D)));
 
 __asm("PORTA equ 0F8Dh");
@@ -6425,7 +6365,7 @@ typedef union {
     };
 } PORTAbits_t;
 extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF8D)));
-# 17807 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17567 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PORTB __attribute__((address(0xF8E)));
 
 __asm("PORTB equ 0F8Eh");
@@ -6448,7 +6388,7 @@ typedef union {
     };
 } PORTBbits_t;
 extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF8E)));
-# 17878 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17638 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PORTC __attribute__((address(0xF8F)));
 
 __asm("PORTC equ 0F8Fh");
@@ -6476,7 +6416,7 @@ typedef union {
     };
 } PORTCbits_t;
 extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF8F)));
-# 17964 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17724 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PORTD __attribute__((address(0xF90)));
 
 __asm("PORTD equ 0F90h");
@@ -6499,7 +6439,7 @@ typedef union {
     };
 } PORTDbits_t;
 extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF90)));
-# 18035 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 17795 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PORTE __attribute__((address(0xF91)));
 
 __asm("PORTE equ 0F91h");
@@ -6578,7 +6518,7 @@ typedef union {
     };
 } PORTEbits_t;
 extern volatile PORTEbits_t PORTEbits __attribute__((address(0xF91)));
-# 18242 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18002 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1BUF __attribute__((address(0xF92)));
 
 __asm("SSP1BUF equ 0F92h");
@@ -6590,7 +6530,7 @@ typedef union {
     };
 } SSP1BUFbits_t;
 extern volatile SSP1BUFbits_t SSP1BUFbits __attribute__((address(0xF92)));
-# 18262 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18022 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1ADD __attribute__((address(0xF93)));
 
 __asm("SSP1ADD equ 0F93h");
@@ -6622,7 +6562,7 @@ typedef union {
     };
 } SSP1ADDbits_t;
 extern volatile SSP1ADDbits_t SSP1ADDbits __attribute__((address(0xF93)));
-# 18382 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18142 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1MSK __attribute__((address(0xF94)));
 
 __asm("SSP1MSK equ 0F94h");
@@ -6644,7 +6584,7 @@ typedef union {
     };
 } SSP1MSKbits_t;
 extern volatile SSP1MSKbits_t SSP1MSKbits __attribute__((address(0xF94)));
-# 18452 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18212 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1STAT __attribute__((address(0xF95)));
 
 __asm("SSP1STAT equ 0F95h");
@@ -6795,7 +6735,7 @@ typedef union {
     };
 } SSP1STATbits_t;
 extern volatile SSP1STATbits_t SSP1STATbits __attribute__((address(0xF95)));
-# 18906 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18666 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1CON1 __attribute__((address(0xF96)));
 
 __asm("SSP1CON1 equ 0F96h");
@@ -6827,7 +6767,7 @@ typedef union {
     };
 } SSP1CON1bits_t;
 extern volatile SSP1CON1bits_t SSP1CON1bits __attribute__((address(0xF96)));
-# 19026 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18786 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1CON2 __attribute__((address(0xF97)));
 
 __asm("SSP1CON2 equ 0F97h");
@@ -6876,7 +6816,7 @@ typedef union {
     };
 } SSP1CON2bits_t;
 extern volatile SSP1CON2bits_t SSP1CON2bits __attribute__((address(0xF97)));
-# 19213 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 18973 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SSP1CON3 __attribute__((address(0xF98)));
 
 __asm("SSP1CON3 equ 0F98h");
@@ -6895,7 +6835,7 @@ typedef union {
     };
 } SSP1CON3bits_t;
 extern volatile SSP1CON3bits_t SSP1CON3bits __attribute__((address(0xF98)));
-# 19275 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19035 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC1REG __attribute__((address(0xF99)));
 
 __asm("RC1REG equ 0F99h");
@@ -6941,7 +6881,7 @@ typedef union {
     };
 } RCREG1bits_t;
 extern volatile RCREG1bits_t RCREG1bits __attribute__((address(0xF99)));
-# 19329 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19089 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TX1REG __attribute__((address(0xF9A)));
 
 __asm("TX1REG equ 0F9Ah");
@@ -6987,7 +6927,7 @@ typedef union {
     };
 } TXREGbits_t;
 extern volatile TXREGbits_t TXREGbits __attribute__((address(0xF9A)));
-# 19383 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19143 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short SP1BRG __attribute__((address(0xF9B)));
 
 __asm("SP1BRG equ 0F9Bh");
@@ -7056,7 +6996,7 @@ typedef union {
     };
 } SPBRGLbits_t;
 extern volatile SPBRGLbits_t SPBRGLbits __attribute__((address(0xF9B)));
-# 19460 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19220 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char SP1BRGH __attribute__((address(0xF9C)));
 
 __asm("SP1BRGH equ 0F9Ch");
@@ -7102,7 +7042,7 @@ typedef union {
     };
 } SPBRGH1bits_t;
 extern volatile SPBRGH1bits_t SPBRGH1bits __attribute__((address(0xF9C)));
-# 19514 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19274 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char RC1STA __attribute__((address(0xF9D)));
 
 __asm("RC1STA equ 0F9Dh");
@@ -7145,7 +7085,7 @@ typedef union {
     };
 } RC1STAbits_t;
 extern volatile RC1STAbits_t RC1STAbits __attribute__((address(0xF9D)));
-# 19618 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19378 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned RX9D :1;
@@ -7174,7 +7114,7 @@ typedef union {
     };
 } RCSTA1bits_t;
 extern volatile RCSTA1bits_t RCSTA1bits __attribute__((address(0xF9D)));
-# 19707 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19467 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned RX9D :1;
@@ -7203,7 +7143,7 @@ typedef union {
     };
 } RCSTAbits_t;
 extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0xF9D)));
-# 19799 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19559 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TX1STA __attribute__((address(0xF9E)));
 
 __asm("TX1STA equ 0F9Eh");
@@ -7269,7 +7209,7 @@ typedef union {
     };
 } TX1STAbits_t;
 extern volatile TX1STAbits_t TX1STAbits __attribute__((address(0xF9E)));
-# 19956 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19716 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TX9D :1;
@@ -7321,7 +7261,7 @@ typedef union {
     };
 } TXSTA1bits_t;
 extern volatile TXSTA1bits_t TXSTA1bits __attribute__((address(0xF9E)));
-# 20098 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 19858 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TX9D :1;
@@ -7373,7 +7313,7 @@ typedef union {
     };
 } TXSTAbits_t;
 extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0xF9E)));
-# 20243 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20003 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char BAUD1CON __attribute__((address(0xF9F)));
 
 __asm("BAUD1CON equ 0F9Fh");
@@ -7456,7 +7396,7 @@ typedef union {
     };
 } BAUD1CONbits_t;
 extern volatile BAUD1CONbits_t BAUD1CONbits __attribute__((address(0xF9F)));
-# 20417 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20177 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -7517,7 +7457,7 @@ typedef union {
     };
 } BAUDCON1bits_t;
 extern volatile BAUDCON1bits_t BAUDCON1bits __attribute__((address(0xF9F)));
-# 20568 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20328 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -7578,7 +7518,7 @@ typedef union {
     };
 } BAUDCTL1bits_t;
 extern volatile BAUDCTL1bits_t BAUDCTL1bits __attribute__((address(0xF9F)));
-# 20719 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20479 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -7639,7 +7579,7 @@ typedef union {
     };
 } BAUDCONbits_t;
 extern volatile BAUDCONbits_t BAUDCONbits __attribute__((address(0xF9F)));
-# 20870 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20630 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -7700,7 +7640,7 @@ typedef union {
     };
 } BAUDCTLbits_t;
 extern volatile BAUDCTLbits_t BAUDCTLbits __attribute__((address(0xF9F)));
-# 21024 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20784 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short PWM4DC __attribute__((address(0xFA0)));
 
 __asm("PWM4DC equ 0FA0h");
@@ -7735,7 +7675,7 @@ typedef union {
     };
 } PWM4DCLbits_t;
 extern volatile PWM4DCLbits_t PWM4DCLbits __attribute__((address(0xFA0)));
-# 21097 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 20857 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PWM4DCH __attribute__((address(0xFA1)));
 
 __asm("PWM4DCH equ 0FA1h");
@@ -7777,7 +7717,7 @@ typedef union {
     };
 } PWM4DCHbits_t;
 extern volatile PWM4DCHbits_t PWM4DCHbits __attribute__((address(0xFA1)));
-# 21267 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21027 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PWM4CON __attribute__((address(0xFA2)));
 
 __asm("PWM4CON equ 0FA2h");
@@ -7800,7 +7740,7 @@ typedef union {
     };
 } PWM4CONbits_t;
 extern volatile PWM4CONbits_t PWM4CONbits __attribute__((address(0xFA2)));
-# 21323 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21083 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short PWM3DC __attribute__((address(0xFA3)));
 
 __asm("PWM3DC equ 0FA3h");
@@ -7835,7 +7775,7 @@ typedef union {
     };
 } PWM3DCLbits_t;
 extern volatile PWM3DCLbits_t PWM3DCLbits __attribute__((address(0xFA3)));
-# 21396 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21156 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PWM3DCH __attribute__((address(0xFA4)));
 
 __asm("PWM3DCH equ 0FA4h");
@@ -7877,7 +7817,7 @@ typedef union {
     };
 } PWM3DCHbits_t;
 extern volatile PWM3DCHbits_t PWM3DCHbits __attribute__((address(0xFA4)));
-# 21566 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21326 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PWM3CON __attribute__((address(0xFA5)));
 
 __asm("PWM3CON equ 0FA5h");
@@ -7900,7 +7840,7 @@ typedef union {
     };
 } PWM3CONbits_t;
 extern volatile PWM3CONbits_t PWM3CONbits __attribute__((address(0xFA5)));
-# 21622 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21382 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short CCPR2 __attribute__((address(0xFA6)));
 
 __asm("CCPR2 equ 0FA6h");
@@ -7919,7 +7859,7 @@ typedef union {
     };
 } CCPR2Lbits_t;
 extern volatile CCPR2Lbits_t CCPR2Lbits __attribute__((address(0xFA6)));
-# 21649 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21409 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCPR2H __attribute__((address(0xFA7)));
 
 __asm("CCPR2H equ 0FA7h");
@@ -7931,7 +7871,7 @@ typedef union {
     };
 } CCPR2Hbits_t;
 extern volatile CCPR2Hbits_t CCPR2Hbits __attribute__((address(0xFA7)));
-# 21669 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21429 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCP2CON __attribute__((address(0xFA8)));
 
 __asm("CCP2CON equ 0FA8h");
@@ -7966,7 +7906,7 @@ typedef union {
     };
 } CCP2CONbits_t;
 extern volatile CCP2CONbits_t CCP2CONbits __attribute__((address(0xFA8)));
-# 21787 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21547 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCP2CAP __attribute__((address(0xFA9)));
 
 __asm("CCP2CAP equ 0FA9h");
@@ -7989,7 +7929,7 @@ typedef union {
     };
 } CCP2CAPbits_t;
 extern volatile CCP2CAPbits_t CCP2CAPbits __attribute__((address(0xFA9)));
-# 21843 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21603 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short CCPR1 __attribute__((address(0xFAA)));
 
 __asm("CCPR1 equ 0FAAh");
@@ -8008,7 +7948,7 @@ typedef union {
     };
 } CCPR1Lbits_t;
 extern volatile CCPR1Lbits_t CCPR1Lbits __attribute__((address(0xFAA)));
-# 21870 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21630 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCPR1H __attribute__((address(0xFAB)));
 
 __asm("CCPR1H equ 0FABh");
@@ -8020,7 +7960,7 @@ typedef union {
     };
 } CCPR1Hbits_t;
 extern volatile CCPR1Hbits_t CCPR1Hbits __attribute__((address(0xFAB)));
-# 21890 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21650 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCP1CON __attribute__((address(0xFAC)));
 
 __asm("CCP1CON equ 0FACh");
@@ -8059,7 +7999,7 @@ typedef union {
     };
 } CCP1CONbits_t;
 extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0xFAC)));
-# 22017 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21777 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCP1CAP __attribute__((address(0xFAD)));
 
 __asm("CCP1CAP equ 0FADh");
@@ -8082,7 +8022,7 @@ typedef union {
     };
 } CCP1CAPbits_t;
 extern volatile CCP1CAPbits_t CCP1CAPbits __attribute__((address(0xFAD)));
-# 22073 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21833 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char CCPTMRS __attribute__((address(0xFAE)));
 
 __asm("CCPTMRS equ 0FAEh");
@@ -8107,7 +8047,7 @@ typedef union {
     };
 } CCPTMRSbits_t;
 extern volatile CCPTMRSbits_t CCPTMRSbits __attribute__((address(0xFAE)));
-# 22161 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21921 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6TMR __attribute__((address(0xFAF)));
 
 __asm("T6TMR equ 0FAFh");
@@ -8137,7 +8077,7 @@ typedef union {
     };
 } TMR6bits_t;
 extern volatile TMR6bits_t TMR6bits __attribute__((address(0xFAF)));
-# 22199 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21959 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6PR __attribute__((address(0xFB0)));
 
 __asm("T6PR equ 0FB0h");
@@ -8167,7 +8107,7 @@ typedef union {
     };
 } PR6bits_t;
 extern volatile PR6bits_t PR6bits __attribute__((address(0xFB0)));
-# 22237 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 21997 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6CON __attribute__((address(0xFB1)));
 
 __asm("T6CON equ 0FB1h");
@@ -8205,7 +8145,7 @@ typedef union {
     };
 } T6CONbits_t;
 extern volatile T6CONbits_t T6CONbits __attribute__((address(0xFB1)));
-# 22383 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22143 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6HLT __attribute__((address(0xFB2)));
 
 __asm("T6HLT equ 0FB2h");
@@ -8240,7 +8180,7 @@ typedef union {
     };
 } T6HLTbits_t;
 extern volatile T6HLTbits_t T6HLTbits __attribute__((address(0xFB2)));
-# 22511 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22271 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6CLKCON __attribute__((address(0xFB3)));
 
 __asm("T6CLKCON equ 0FB3h");
@@ -8272,7 +8212,7 @@ typedef union {
     };
 } T6CLKCONbits_t;
 extern volatile T6CLKCONbits_t T6CLKCONbits __attribute__((address(0xFB3)));
-# 22594 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22354 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :4;
@@ -8294,7 +8234,7 @@ typedef union {
     };
 } T6CLKbits_t;
 extern volatile T6CLKbits_t T6CLKbits __attribute__((address(0xFB3)));
-# 22669 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22429 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T6RST __attribute__((address(0xFB4)));
 
 __asm("T6RST equ 0FB4h");
@@ -8321,7 +8261,7 @@ typedef union {
     };
 } T6RSTbits_t;
 extern volatile T6RSTbits_t T6RSTbits __attribute__((address(0xFB4)));
-# 22749 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22509 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4TMR __attribute__((address(0xFB5)));
 
 __asm("T4TMR equ 0FB5h");
@@ -8351,7 +8291,7 @@ typedef union {
     };
 } TMR4bits_t;
 extern volatile TMR4bits_t TMR4bits __attribute__((address(0xFB5)));
-# 22787 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22547 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4PR __attribute__((address(0xFB6)));
 
 __asm("T4PR equ 0FB6h");
@@ -8381,7 +8321,7 @@ typedef union {
     };
 } PR4bits_t;
 extern volatile PR4bits_t PR4bits __attribute__((address(0xFB6)));
-# 22825 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22585 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4CON __attribute__((address(0xFB7)));
 
 __asm("T4CON equ 0FB7h");
@@ -8419,7 +8359,7 @@ typedef union {
     };
 } T4CONbits_t;
 extern volatile T4CONbits_t T4CONbits __attribute__((address(0xFB7)));
-# 22971 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22731 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4HLT __attribute__((address(0xFB8)));
 
 __asm("T4HLT equ 0FB8h");
@@ -8454,7 +8394,7 @@ typedef union {
     };
 } T4HLTbits_t;
 extern volatile T4HLTbits_t T4HLTbits __attribute__((address(0xFB8)));
-# 23099 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22859 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4CLKCON __attribute__((address(0xFB9)));
 
 __asm("T4CLKCON equ 0FB9h");
@@ -8486,7 +8426,7 @@ typedef union {
     };
 } T4CLKCONbits_t;
 extern volatile T4CLKCONbits_t T4CLKCONbits __attribute__((address(0xFB9)));
-# 23182 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 22942 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :4;
@@ -8508,7 +8448,7 @@ typedef union {
     };
 } T4CLKbits_t;
 extern volatile T4CLKbits_t T4CLKbits __attribute__((address(0xFB9)));
-# 23257 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23017 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T4RST __attribute__((address(0xFBA)));
 
 __asm("T4RST equ 0FBAh");
@@ -8535,7 +8475,7 @@ typedef union {
     };
 } T4RSTbits_t;
 extern volatile T4RSTbits_t T4RSTbits __attribute__((address(0xFBA)));
-# 23337 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23097 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2TMR __attribute__((address(0xFBB)));
 
 __asm("T2TMR equ 0FBBh");
@@ -8565,7 +8505,7 @@ typedef union {
     };
 } TMR2bits_t;
 extern volatile TMR2bits_t TMR2bits __attribute__((address(0xFBB)));
-# 23375 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23135 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2PR __attribute__((address(0xFBC)));
 
 __asm("T2PR equ 0FBCh");
@@ -8595,7 +8535,7 @@ typedef union {
     };
 } PR2bits_t;
 extern volatile PR2bits_t PR2bits __attribute__((address(0xFBC)));
-# 23413 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23173 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2CON __attribute__((address(0xFBD)));
 
 __asm("T2CON equ 0FBDh");
@@ -8633,7 +8573,7 @@ typedef union {
     };
 } T2CONbits_t;
 extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFBD)));
-# 23559 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23319 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2HLT __attribute__((address(0xFBE)));
 
 __asm("T2HLT equ 0FBEh");
@@ -8668,7 +8608,7 @@ typedef union {
     };
 } T2HLTbits_t;
 extern volatile T2HLTbits_t T2HLTbits __attribute__((address(0xFBE)));
-# 23687 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23447 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2CLKCON __attribute__((address(0xFBF)));
 
 __asm("T2CLKCON equ 0FBFh");
@@ -8700,7 +8640,7 @@ typedef union {
     };
 } T2CLKCONbits_t;
 extern volatile T2CLKCONbits_t T2CLKCONbits __attribute__((address(0xFBF)));
-# 23770 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23530 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :4;
@@ -8722,7 +8662,7 @@ typedef union {
     };
 } T2CLKbits_t;
 extern volatile T2CLKbits_t T2CLKbits __attribute__((address(0xFBF)));
-# 23845 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23605 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T2RST __attribute__((address(0xFC0)));
 
 __asm("T2RST equ 0FC0h");
@@ -8749,7 +8689,7 @@ typedef union {
     };
 } T2RSTbits_t;
 extern volatile T2RSTbits_t T2RSTbits __attribute__((address(0xFC0)));
-# 23925 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23685 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short TMR5 __attribute__((address(0xFC1)));
 
 __asm("TMR5 equ 0FC1h");
@@ -8798,7 +8738,7 @@ typedef union {
     };
 } TMR5Lbits_t;
 extern volatile TMR5Lbits_t TMR5Lbits __attribute__((address(0xFC1)));
-# 24102 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23862 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TMR5H __attribute__((address(0xFC2)));
 
 __asm("TMR5H equ 0FC2h");
@@ -8830,7 +8770,7 @@ typedef union {
     };
 } TMR5Hbits_t;
 extern volatile TMR5Hbits_t TMR5Hbits __attribute__((address(0xFC2)));
-# 24222 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 23982 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T5CON __attribute__((address(0xFC3)));
 
 __asm("T5CON equ 0FC3h");
@@ -8871,7 +8811,7 @@ typedef union {
     };
 } T5CONbits_t;
 extern volatile T5CONbits_t T5CONbits __attribute__((address(0xFC3)));
-# 24336 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24096 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T5GCON __attribute__((address(0xFC4)));
 
 __asm("T5GCON equ 0FC4h");
@@ -8915,7 +8855,7 @@ typedef union {
     };
 } T5GCONbits_t;
 extern volatile T5GCONbits_t T5GCONbits __attribute__((address(0xFC4)));
-# 24456 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24216 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned :3;
@@ -8949,7 +8889,7 @@ typedef union {
     };
 } PR5bits_t;
 extern volatile PR5bits_t PR5bits __attribute__((address(0xFC4)));
-# 24568 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24328 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T5GATE __attribute__((address(0xFC5)));
 
 __asm("T5GATE equ 0FC5h");
@@ -8978,7 +8918,7 @@ typedef union {
     };
 } T5GATEbits_t;
 extern volatile T5GATEbits_t T5GATEbits __attribute__((address(0xFC5)));
-# 24643 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24403 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned GSS :5;
@@ -8997,7 +8937,7 @@ typedef union {
     };
 } TMR5GATEbits_t;
 extern volatile TMR5GATEbits_t TMR5GATEbits __attribute__((address(0xFC5)));
-# 24710 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24470 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T5CLK __attribute__((address(0xFC6)));
 
 __asm("T5CLK equ 0FC6h");
@@ -9026,7 +8966,7 @@ typedef union {
     };
 } T5CLKbits_t;
 extern volatile T5CLKbits_t T5CLKbits __attribute__((address(0xFC6)));
-# 24785 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24545 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :4;
@@ -9045,7 +8985,7 @@ typedef union {
     };
 } TMR5CLKbits_t;
 extern volatile TMR5CLKbits_t TMR5CLKbits __attribute__((address(0xFC6)));
-# 24852 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24612 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short TMR3 __attribute__((address(0xFC7)));
 
 __asm("TMR3 equ 0FC7h");
@@ -9094,7 +9034,7 @@ typedef union {
     };
 } TMR3Lbits_t;
 extern volatile TMR3Lbits_t TMR3Lbits __attribute__((address(0xFC7)));
-# 25029 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24789 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TMR3H __attribute__((address(0xFC8)));
 
 __asm("TMR3H equ 0FC8h");
@@ -9126,7 +9066,7 @@ typedef union {
     };
 } TMR3Hbits_t;
 extern volatile TMR3Hbits_t TMR3Hbits __attribute__((address(0xFC8)));
-# 25149 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 24909 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T3CON __attribute__((address(0xFC9)));
 
 __asm("T3CON equ 0FC9h");
@@ -9167,7 +9107,7 @@ typedef union {
     };
 } T3CONbits_t;
 extern volatile T3CONbits_t T3CONbits __attribute__((address(0xFC9)));
-# 25263 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25023 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T3GCON __attribute__((address(0xFCA)));
 
 __asm("T3GCON equ 0FCAh");
@@ -9211,7 +9151,7 @@ typedef union {
     };
 } T3GCONbits_t;
 extern volatile T3GCONbits_t T3GCONbits __attribute__((address(0xFCA)));
-# 25383 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25143 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned :3;
@@ -9245,7 +9185,7 @@ typedef union {
     };
 } PR3bits_t;
 extern volatile PR3bits_t PR3bits __attribute__((address(0xFCA)));
-# 25495 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25255 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T3GATE __attribute__((address(0xFCB)));
 
 __asm("T3GATE equ 0FCBh");
@@ -9274,7 +9214,7 @@ typedef union {
     };
 } T3GATEbits_t;
 extern volatile T3GATEbits_t T3GATEbits __attribute__((address(0xFCB)));
-# 25570 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25330 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned GSS :5;
@@ -9293,7 +9233,7 @@ typedef union {
     };
 } TMR3GATEbits_t;
 extern volatile TMR3GATEbits_t TMR3GATEbits __attribute__((address(0xFCB)));
-# 25637 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25397 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T3CLK __attribute__((address(0xFCC)));
 
 __asm("T3CLK equ 0FCCh");
@@ -9322,7 +9262,7 @@ typedef union {
     };
 } T3CLKbits_t;
 extern volatile T3CLKbits_t T3CLKbits __attribute__((address(0xFCC)));
-# 25712 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25472 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :4;
@@ -9341,7 +9281,7 @@ typedef union {
     };
 } TMR3CLKbits_t;
 extern volatile TMR3CLKbits_t TMR3CLKbits __attribute__((address(0xFCC)));
-# 25779 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25539 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short TMR1 __attribute__((address(0xFCD)));
 
 __asm("TMR1 equ 0FCDh");
@@ -9390,7 +9330,7 @@ typedef union {
     };
 } TMR1Lbits_t;
 extern volatile TMR1Lbits_t TMR1Lbits __attribute__((address(0xFCD)));
-# 25956 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25716 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TMR1H __attribute__((address(0xFCE)));
 
 __asm("TMR1H equ 0FCEh");
@@ -9422,7 +9362,7 @@ typedef union {
     };
 } TMR1Hbits_t;
 extern volatile TMR1Hbits_t TMR1Hbits __attribute__((address(0xFCE)));
-# 26076 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25836 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T1CON __attribute__((address(0xFCF)));
 
 __asm("T1CON equ 0FCFh");
@@ -9463,7 +9403,7 @@ typedef union {
     };
 } T1CONbits_t;
 extern volatile T1CONbits_t T1CONbits __attribute__((address(0xFCF)));
-# 26190 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 25950 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T1GCON __attribute__((address(0xFD0)));
 
 __asm("T1GCON equ 0FD0h");
@@ -9507,7 +9447,7 @@ typedef union {
     };
 } T1GCONbits_t;
 extern volatile T1GCONbits_t T1GCONbits __attribute__((address(0xFD0)));
-# 26310 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26070 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned :3;
@@ -9541,7 +9481,7 @@ typedef union {
     };
 } PR1bits_t;
 extern volatile PR1bits_t PR1bits __attribute__((address(0xFD0)));
-# 26422 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26182 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T1GATE __attribute__((address(0xFD1)));
 
 __asm("T1GATE equ 0FD1h");
@@ -9570,7 +9510,7 @@ typedef union {
     };
 } T1GATEbits_t;
 extern volatile T1GATEbits_t T1GATEbits __attribute__((address(0xFD1)));
-# 26497 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26257 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned GSS :5;
@@ -9589,7 +9529,7 @@ typedef union {
     };
 } TMR1GATEbits_t;
 extern volatile TMR1GATEbits_t TMR1GATEbits __attribute__((address(0xFD1)));
-# 26564 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26324 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T1CLK __attribute__((address(0xFD2)));
 
 __asm("T1CLK equ 0FD2h");
@@ -9618,7 +9558,7 @@ typedef union {
     };
 } T1CLKbits_t;
 extern volatile T1CLKbits_t T1CLKbits __attribute__((address(0xFD2)));
-# 26639 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26399 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned CS :4;
@@ -9637,7 +9577,7 @@ typedef union {
     };
 } TMR1CLKbits_t;
 extern volatile TMR1CLKbits_t TMR1CLKbits __attribute__((address(0xFD2)));
-# 26706 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26466 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TMR0L __attribute__((address(0xFD3)));
 
 __asm("TMR0L equ 0FD3h");
@@ -9664,7 +9604,7 @@ typedef union {
     };
 } TMR0Lbits_t;
 extern volatile TMR0Lbits_t TMR0Lbits __attribute__((address(0xFD3)));
-# 26779 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26539 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TMR0L :8;
@@ -9681,7 +9621,7 @@ typedef union {
     };
 } TMR0bits_t;
 extern volatile TMR0bits_t TMR0bits __attribute__((address(0xFD3)));
-# 26844 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26604 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TMR0H __attribute__((address(0xFD4)));
 
 __asm("TMR0H equ 0FD4h");
@@ -9721,7 +9661,7 @@ typedef union {
     };
 } TMR0Hbits_t;
 extern volatile TMR0Hbits_t TMR0Hbits __attribute__((address(0xFD4)));
-# 26975 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26735 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 typedef union {
     struct {
         unsigned TMR0H :8;
@@ -9751,7 +9691,7 @@ typedef union {
     };
 } PR0bits_t;
 extern volatile PR0bits_t PR0bits __attribute__((address(0xFD4)));
-# 27098 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26858 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T0CON0 __attribute__((address(0xFD5)));
 
 __asm("T0CON0 equ 0FD5h");
@@ -9773,7 +9713,7 @@ typedef union {
     };
 } T0CON0bits_t;
 extern volatile T0CON0bits_t T0CON0bits __attribute__((address(0xFD5)));
-# 27163 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 26923 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char T0CON1 __attribute__((address(0xFD6)));
 
 __asm("T0CON1 equ 0FD6h");
@@ -9806,7 +9746,7 @@ typedef union {
     };
 } T0CON1bits_t;
 extern volatile T0CON1bits_t T0CON1bits __attribute__((address(0xFD6)));
-# 27274 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27034 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PCON0 __attribute__((address(0xFD7)));
 
 __asm("PCON0 equ 0FD7h");
@@ -9856,7 +9796,7 @@ typedef union {
     };
 } PCON0bits_t;
 extern volatile PCON0bits_t PCON0bits __attribute__((address(0xFD7)));
-# 27427 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27187 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char STATUS __attribute__((address(0xFD8)));
 
 __asm("STATUS equ 0FD8h");
@@ -9894,7 +9834,7 @@ typedef union {
     };
 } STATUSbits_t;
 extern volatile STATUSbits_t STATUSbits __attribute__((address(0xFD8)));
-# 27543 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27303 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short FSR2 __attribute__((address(0xFD9)));
 
 __asm("FSR2 equ 0FD9h");
@@ -9913,7 +9853,7 @@ typedef union {
     };
 } FSR2Lbits_t;
 extern volatile FSR2Lbits_t FSR2Lbits __attribute__((address(0xFD9)));
-# 27570 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27330 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char FSR2H __attribute__((address(0xFDA)));
 
 __asm("FSR2H equ 0FDAh");
@@ -9932,7 +9872,7 @@ typedef union {
     };
 } PLUSW2bits_t;
 extern volatile PLUSW2bits_t PLUSW2bits __attribute__((address(0xFDB)));
-# 27597 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27357 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PREINC2 __attribute__((address(0xFDC)));
 
 __asm("PREINC2 equ 0FDCh");
@@ -9944,7 +9884,7 @@ typedef union {
     };
 } PREINC2bits_t;
 extern volatile PREINC2bits_t PREINC2bits __attribute__((address(0xFDC)));
-# 27617 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27377 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char POSTDEC2 __attribute__((address(0xFDD)));
 
 __asm("POSTDEC2 equ 0FDDh");
@@ -9956,7 +9896,7 @@ typedef union {
     };
 } POSTDEC2bits_t;
 extern volatile POSTDEC2bits_t POSTDEC2bits __attribute__((address(0xFDD)));
-# 27637 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27397 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char POSTINC2 __attribute__((address(0xFDE)));
 
 __asm("POSTINC2 equ 0FDEh");
@@ -9968,7 +9908,7 @@ typedef union {
     };
 } POSTINC2bits_t;
 extern volatile POSTINC2bits_t POSTINC2bits __attribute__((address(0xFDE)));
-# 27657 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27417 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INDF2 __attribute__((address(0xFDF)));
 
 __asm("INDF2 equ 0FDFh");
@@ -9980,7 +9920,7 @@ typedef union {
     };
 } INDF2bits_t;
 extern volatile INDF2bits_t INDF2bits __attribute__((address(0xFDF)));
-# 27677 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27437 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char BSR __attribute__((address(0xFE0)));
 
 __asm("BSR equ 0FE0h");
@@ -10006,7 +9946,7 @@ typedef union {
     };
 } FSR1Lbits_t;
 extern volatile FSR1Lbits_t FSR1Lbits __attribute__((address(0xFE1)));
-# 27711 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27471 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char FSR1H __attribute__((address(0xFE2)));
 
 __asm("FSR1H equ 0FE2h");
@@ -10025,7 +9965,7 @@ typedef union {
     };
 } PLUSW1bits_t;
 extern volatile PLUSW1bits_t PLUSW1bits __attribute__((address(0xFE3)));
-# 27738 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27498 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PREINC1 __attribute__((address(0xFE4)));
 
 __asm("PREINC1 equ 0FE4h");
@@ -10037,7 +9977,7 @@ typedef union {
     };
 } PREINC1bits_t;
 extern volatile PREINC1bits_t PREINC1bits __attribute__((address(0xFE4)));
-# 27758 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27518 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char POSTDEC1 __attribute__((address(0xFE5)));
 
 __asm("POSTDEC1 equ 0FE5h");
@@ -10049,7 +9989,7 @@ typedef union {
     };
 } POSTDEC1bits_t;
 extern volatile POSTDEC1bits_t POSTDEC1bits __attribute__((address(0xFE5)));
-# 27778 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27538 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char POSTINC1 __attribute__((address(0xFE6)));
 
 __asm("POSTINC1 equ 0FE6h");
@@ -10061,7 +10001,7 @@ typedef union {
     };
 } POSTINC1bits_t;
 extern volatile POSTINC1bits_t POSTINC1bits __attribute__((address(0xFE6)));
-# 27798 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27558 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INDF1 __attribute__((address(0xFE7)));
 
 __asm("INDF1 equ 0FE7h");
@@ -10073,7 +10013,7 @@ typedef union {
     };
 } INDF1bits_t;
 extern volatile INDF1bits_t INDF1bits __attribute__((address(0xFE7)));
-# 27818 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27578 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char WREG __attribute__((address(0xFE8)));
 
 __asm("WREG equ 0FE8h");
@@ -10103,7 +10043,7 @@ typedef union {
     };
 } Wbits_t;
 extern volatile Wbits_t Wbits __attribute__((address(0xFE8)));
-# 27856 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27616 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short FSR0 __attribute__((address(0xFE9)));
 
 __asm("FSR0 equ 0FE9h");
@@ -10122,7 +10062,7 @@ typedef union {
     };
 } FSR0Lbits_t;
 extern volatile FSR0Lbits_t FSR0Lbits __attribute__((address(0xFE9)));
-# 27883 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27643 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char FSR0H __attribute__((address(0xFEA)));
 
 __asm("FSR0H equ 0FEAh");
@@ -10141,7 +10081,7 @@ typedef union {
     };
 } PLUSW0bits_t;
 extern volatile PLUSW0bits_t PLUSW0bits __attribute__((address(0xFEB)));
-# 27910 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27670 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PREINC0 __attribute__((address(0xFEC)));
 
 __asm("PREINC0 equ 0FECh");
@@ -10153,7 +10093,7 @@ typedef union {
     };
 } PREINC0bits_t;
 extern volatile PREINC0bits_t PREINC0bits __attribute__((address(0xFEC)));
-# 27930 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27690 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char POSTDEC0 __attribute__((address(0xFED)));
 
 __asm("POSTDEC0 equ 0FEDh");
@@ -10165,7 +10105,7 @@ typedef union {
     };
 } POSTDEC0bits_t;
 extern volatile POSTDEC0bits_t POSTDEC0bits __attribute__((address(0xFED)));
-# 27950 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27710 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char POSTINC0 __attribute__((address(0xFEE)));
 
 __asm("POSTINC0 equ 0FEEh");
@@ -10177,7 +10117,7 @@ typedef union {
     };
 } POSTINC0bits_t;
 extern volatile POSTINC0bits_t POSTINC0bits __attribute__((address(0xFEE)));
-# 27970 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27730 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INDF0 __attribute__((address(0xFEF)));
 
 __asm("INDF0 equ 0FEFh");
@@ -10189,7 +10129,7 @@ typedef union {
     };
 } INDF0bits_t;
 extern volatile INDF0bits_t INDF0bits __attribute__((address(0xFEF)));
-# 27990 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27750 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char INTCON __attribute__((address(0xFF2)));
 
 __asm("INTCON equ 0FF2h");
@@ -10217,7 +10157,7 @@ typedef union {
     };
 } INTCONbits_t;
 extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
-# 28071 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27831 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned short PROD __attribute__((address(0xFF3)));
 
 __asm("PROD equ 0FF3h");
@@ -10236,7 +10176,7 @@ typedef union {
     };
 } PRODLbits_t;
 extern volatile PRODLbits_t PRODLbits __attribute__((address(0xFF3)));
-# 28098 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27858 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PRODH __attribute__((address(0xFF4)));
 
 __asm("PRODH equ 0FF4h");
@@ -10248,7 +10188,7 @@ typedef union {
     };
 } PRODHbits_t;
 extern volatile PRODHbits_t PRODHbits __attribute__((address(0xFF4)));
-# 28118 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27878 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TABLAT __attribute__((address(0xFF5)));
 
 __asm("TABLAT equ 0FF5h");
@@ -10260,7 +10200,7 @@ typedef union {
     };
 } TABLATbits_t;
 extern volatile TABLATbits_t TABLATbits __attribute__((address(0xFF5)));
-# 28139 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27899 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile __uint24 TBLPTR __attribute__((address(0xFF6)));
 
 
@@ -10280,7 +10220,7 @@ typedef union {
     };
 } TBLPTRLbits_t;
 extern volatile TBLPTRLbits_t TBLPTRLbits __attribute__((address(0xFF6)));
-# 28167 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27927 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TBLPTRH __attribute__((address(0xFF7)));
 
 __asm("TBLPTRH equ 0FF7h");
@@ -10292,7 +10232,7 @@ typedef union {
     };
 } TBLPTRHbits_t;
 extern volatile TBLPTRHbits_t TBLPTRHbits __attribute__((address(0xFF7)));
-# 28187 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27947 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TBLPTRU __attribute__((address(0xFF8)));
 
 __asm("TBLPTRU equ 0FF8h");
@@ -10308,7 +10248,7 @@ typedef union {
     };
 } TBLPTRUbits_t;
 extern volatile TBLPTRUbits_t TBLPTRUbits __attribute__((address(0xFF8)));
-# 28217 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 27977 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile __uint24 PCLAT __attribute__((address(0xFF9)));
 
 
@@ -10335,7 +10275,7 @@ typedef union {
     };
 } PCLbits_t;
 extern volatile PCLbits_t PCLbits __attribute__((address(0xFF9)));
-# 28252 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28012 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PCLATH __attribute__((address(0xFFA)));
 
 __asm("PCLATH equ 0FFAh");
@@ -10347,7 +10287,7 @@ typedef union {
     };
 } PCLATHbits_t;
 extern volatile PCLATHbits_t PCLATHbits __attribute__((address(0xFFA)));
-# 28272 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28032 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char PCLATU __attribute__((address(0xFFB)));
 
 __asm("PCLATU equ 0FFBh");
@@ -10359,7 +10299,7 @@ typedef union {
     };
 } PCLATUbits_t;
 extern volatile PCLATUbits_t PCLATUbits __attribute__((address(0xFFB)));
-# 28292 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28052 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char STKPTR __attribute__((address(0xFFC)));
 
 __asm("STKPTR equ 0FFCh");
@@ -10367,7 +10307,7 @@ __asm("STKPTR equ 0FFCh");
 
 typedef union {
     struct {
-        unsigned STKPTR :5;
+        unsigned STKPTR :6;
     };
     struct {
         unsigned STKPTR0 :1;
@@ -10375,6 +10315,7 @@ typedef union {
         unsigned STKPTR2 :1;
         unsigned STKPTR3 :1;
         unsigned STKPTR4 :1;
+        unsigned STKPTR5 :1;
     };
     struct {
         unsigned SP0 :1;
@@ -10382,10 +10323,11 @@ typedef union {
         unsigned SP2 :1;
         unsigned SP3 :1;
         unsigned SP4 :1;
+        unsigned SP5 :1;
     };
 } STKPTRbits_t;
 extern volatile STKPTRbits_t STKPTRbits __attribute__((address(0xFFC)));
-# 28377 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28149 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile __uint24 TOS __attribute__((address(0xFFD)));
 
 
@@ -10405,7 +10347,7 @@ typedef union {
     };
 } TOSLbits_t;
 extern volatile TOSLbits_t TOSLbits __attribute__((address(0xFFD)));
-# 28405 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28177 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TOSH __attribute__((address(0xFFE)));
 
 __asm("TOSH equ 0FFEh");
@@ -10417,11 +10359,11 @@ typedef union {
     };
 } TOSHbits_t;
 extern volatile TOSHbits_t TOSHbits __attribute__((address(0xFFE)));
-# 28425 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28197 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile unsigned char TOSU __attribute__((address(0xFFF)));
 
 __asm("TOSU equ 0FFFh");
-# 28442 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\proc\\pic18f47k40.h" 3
+# 28210 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\proc\\pic18f47k40.h" 3
 extern volatile __bit ABDEN1 __attribute__((address(0x7CF8)));
 
 
@@ -11994,7 +11936,7 @@ extern volatile __bit CWG1ISM1 __attribute__((address(0x7A09)));
 extern volatile __bit CWG1ISM2 __attribute__((address(0x7A0A)));
 
 
-extern volatile __bit CWG1ISM4 __attribute__((address(0x7A0C)));
+extern volatile __bit CWG1ISM3 __attribute__((address(0x7A0B)));
 
 
 extern volatile __bit CWG1LD __attribute__((address(0x7A26)));
@@ -14691,21 +14633,6 @@ extern volatile __bit RW2 __attribute__((address(0x74AA)));
 extern volatile __bit RWDT __attribute__((address(0x7EBC)));
 
 
-extern volatile __bit RX1PPS0 __attribute__((address(0x75A8)));
-
-
-extern volatile __bit RX1PPS1 __attribute__((address(0x75A9)));
-
-
-extern volatile __bit RX1PPS2 __attribute__((address(0x75AA)));
-
-
-extern volatile __bit RX1PPS3 __attribute__((address(0x75AB)));
-
-
-extern volatile __bit RX1PPS4 __attribute__((address(0x75AC)));
-
-
 extern volatile __bit RXB0IE __attribute__((address(0x7628)));
 
 
@@ -15135,6 +15062,9 @@ extern volatile __bit SP3 __attribute__((address(0x7FE3)));
 extern volatile __bit SP4 __attribute__((address(0x7FE4)));
 
 
+extern volatile __bit SP5 __attribute__((address(0x7FE5)));
+
+
 extern volatile __bit SPI1MD __attribute__((address(0x7709)));
 
 
@@ -15238,6 +15168,9 @@ extern volatile __bit STKPTR3 __attribute__((address(0x7FE3)));
 
 
 extern volatile __bit STKPTR4 __attribute__((address(0x7FE4)));
+
+
+extern volatile __bit STKPTR5 __attribute__((address(0x7FE5)));
 
 
 extern volatile __bit STKUNF __attribute__((address(0x7EBE)));
@@ -16506,21 +16439,6 @@ extern volatile __bit TX1IF __attribute__((address(0x766C)));
 extern volatile __bit TX1IP __attribute__((address(0x75EC)));
 
 
-extern volatile __bit TX1PPS0 __attribute__((address(0x75B0)));
-
-
-extern volatile __bit TX1PPS1 __attribute__((address(0x75B1)));
-
-
-extern volatile __bit TX1PPS2 __attribute__((address(0x75B2)));
-
-
-extern volatile __bit TX1PPS3 __attribute__((address(0x75B3)));
-
-
-extern volatile __bit TX1PPS4 __attribute__((address(0x75B4)));
-
-
 extern volatile __bit TX2IE __attribute__((address(0x762E)));
 
 
@@ -16972,9 +16890,9 @@ extern volatile __bit nWRITE1 __attribute__((address(0x7CAA)));
 
 
 extern volatile __bit nWRITE2 __attribute__((address(0x74AA)));
-# 250 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18_chip_select.h" 2 3
-# 9 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 2 3
-# 19 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 3
+# 905 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18_chip_select.h" 2 3
+# 8 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 2 3
+# 19 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 3
 __attribute__((__unsupported__("The " "flash_write" " routine is no longer supported. Please use the MPLAB X MCC."))) void flash_write(const unsigned char *, unsigned int, __far unsigned char *);
 __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer supported. Please use the MPLAB X MCC."))) void EraseFlash(unsigned long startaddr, unsigned long endaddr);
 
@@ -16984,18 +16902,18 @@ __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer suppor
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\errata.h" 1 3
-# 28 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 2 3
-# 156 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\errata.h" 1 3
+# 27 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 2 3
+# 156 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 3
 __attribute__((__unsupported__("The " "Read_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) unsigned char Read_b_eep(unsigned int badd);
 __attribute__((__unsupported__("The " "Busy_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Busy_eep(void);
 __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Write_b_eep(unsigned int badd, unsigned char bdat);
-# 176 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 3
+# 176 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 3
 __attribute__((__unsupported__("The READTIMER" "0" "() macro is not available with the current device."))) unsigned short __readtimer0(void);
-# 192 "C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\\pic\\include\\pic18.h" 3
+# 192 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\pic18.h" 3
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
-# 33 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 2 3
+# 33 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 2 3
 # 49 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/device_config.h" 1
@@ -17009,154 +16927,10 @@ void PIN_MANAGER_IOC(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdbool.h" 1 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdbool.h" 1 3
 # 53 "./mcc_generated_files/mcc.h" 2
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\conio.h" 1 3
-
-
-
-
-
-
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdio.h" 1 3
-# 24 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdio.h" 3
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 1 3
-
-
-
-
-
-typedef void * va_list[1];
-
-
-
-
-typedef void * __isoc_va_list[1];
-# 137 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
-typedef long ssize_t;
-# 246 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
-typedef long long off_t;
-# 399 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\bits/alltypes.h" 3
-typedef struct _IO_FILE FILE;
-# 25 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdio.h" 2 3
-# 52 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\stdio.h" 3
-typedef union _G_fpos64_t {
- char __opaque[16];
- double __align;
-} fpos_t;
-
-extern FILE *const stdin;
-extern FILE *const stdout;
-extern FILE *const stderr;
-
-
-
-
-
-FILE *fopen(const char *restrict, const char *restrict);
-FILE *freopen(const char *restrict, const char *restrict, FILE *restrict);
-int fclose(FILE *);
-
-int remove(const char *);
-int rename(const char *, const char *);
-
-int feof(FILE *);
-int ferror(FILE *);
-int fflush(FILE *);
-void clearerr(FILE *);
-
-int fseek(FILE *, long, int);
-long ftell(FILE *);
-void rewind(FILE *);
-
-int fgetpos(FILE *restrict, fpos_t *restrict);
-int fsetpos(FILE *, const fpos_t *);
-
-size_t fread(void *restrict, size_t, size_t, FILE *restrict);
-size_t fwrite(const void *restrict, size_t, size_t, FILE *restrict);
-
-int fgetc(FILE *);
-int getc(FILE *);
-int getchar(void);
-int ungetc(int, FILE *);
-int getch(void);
-
-int fputc(int, FILE *);
-int putc(int, FILE *);
-int putchar(int);
-void putch(char);
-
-char *fgets(char *restrict, int, FILE *restrict);
-
-char *gets(char *);
-
-
-int fputs(const char *restrict, FILE *restrict);
-int puts(const char *);
-
-__attribute__((__format__(__printf__, 1, 2)))
-int printf(const char *restrict, ...);
-__attribute__((__format__(__printf__, 2, 3)))
-int fprintf(FILE *restrict, const char *restrict, ...);
-__attribute__((__format__(__printf__, 2, 3)))
-int sprintf(char *restrict, const char *restrict, ...);
-__attribute__((__format__(__printf__, 3, 4)))
-int snprintf(char *restrict, size_t, const char *restrict, ...);
-
-__attribute__((__format__(__printf__, 1, 0)))
-int vprintf(const char *restrict, __isoc_va_list);
-int vfprintf(FILE *restrict, const char *restrict, __isoc_va_list);
-__attribute__((__format__(__printf__, 2, 0)))
-int vsprintf(char *restrict, const char *restrict, __isoc_va_list);
-__attribute__((__format__(__printf__, 3, 0)))
-int vsnprintf(char *restrict, size_t, const char *restrict, __isoc_va_list);
-
-__attribute__((__format__(__scanf__, 1, 2)))
-int scanf(const char *restrict, ...);
-__attribute__((__format__(__scanf__, 2, 3)))
-int fscanf(FILE *restrict, const char *restrict, ...);
-__attribute__((__format__(__scanf__, 2, 3)))
-int sscanf(const char *restrict, const char *restrict, ...);
-
-__attribute__((__format__(__scanf__, 1, 0)))
-int vscanf(const char *restrict, __isoc_va_list);
-int vfscanf(FILE *restrict, const char *restrict, __isoc_va_list);
-__attribute__((__format__(__scanf__, 2, 0)))
-int vsscanf(const char *restrict, const char *restrict, __isoc_va_list);
-
-void perror(const char *);
-
-int setvbuf(FILE *restrict, char *restrict, int, size_t);
-void setbuf(FILE *restrict, char *restrict);
-
-char *tmpnam(char *);
-FILE *tmpfile(void);
-
-
-
-
-FILE *fmemopen(void *restrict, size_t, const char *restrict);
-FILE *open_memstream(char **, size_t *);
-FILE *fdopen(int, const char *);
-FILE *popen(const char *, const char *);
-int pclose(FILE *);
-int fileno(FILE *);
-int fseeko(FILE *, off_t, int);
-off_t ftello(FILE *);
-int dprintf(int, const char *restrict, ...);
-int vdprintf(int, const char *restrict, __isoc_va_list);
-void flockfile(FILE *);
-int ftrylockfile(FILE *);
-void funlockfile(FILE *);
-int getc_unlocked(FILE *);
-int getchar_unlocked(void);
-int putc_unlocked(int, FILE *);
-int putchar_unlocked(int);
-ssize_t getdelim(char **restrict, size_t *restrict, int, FILE *restrict);
-ssize_t getline(char **restrict, size_t *restrict, FILE *restrict);
-int renameat(int, const char *, int, const char *);
-char *ctermid(char *);
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\conio.h" 1 3
 
 
 
@@ -17164,8 +16938,29 @@ char *ctermid(char *);
 
 
 
-char *tempnam(const char *, const char *);
-# 8 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\conio.h" 2 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\errno.h" 1 3
+# 12 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\errno.h" 3
+extern int errno;
+# 8 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\conio.h" 2 3
+
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\__null.h" 1 3
+# 9 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\conio.h" 2 3
+
+
+
+extern void init_uart(void);
+
+extern char getch(void);
+extern char getche(void);
+extern void putch(char);
+extern void ungetch(char);
+
+extern __bit kbhit(void);
+
+
+
+extern char * cgets(char *);
+extern void cputs(const char *);
 # 54 "./mcc_generated_files/mcc.h" 2
 # 69 "./mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
